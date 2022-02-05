@@ -9,17 +9,22 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+// placeholder components added - figure out what's next!!
+
+
 function App() {
 
   return (
     <>
       <NavBar />
       <Side />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className="container-lg">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
       <Footer />
     </>
   )

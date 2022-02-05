@@ -1,6 +1,8 @@
 function Contact() {
   return (
-    <h3>Contact</h3>
+    <section className="p-5" id="contact">
+      <h3>Contact</h3>
+    </section>
   )
 }
 
