@@ -20,7 +20,7 @@ function Footer() {
           </div>
           <div className="col">
             <div className="p-5 footer-element text-muted">
-              <span dangerouslySetInnerHTML={{ '__html': '&copy;' }} />2022 John Davies
+              <span dangerouslySetInnerHTML={{ '__html': '&copy;' }} />2022 John Davies (Maybe replace all footer text with &apos;Built by John Davies, inspired by Brittany Chiang&apos; or something similar)
             </div>
           </div>
         </div>

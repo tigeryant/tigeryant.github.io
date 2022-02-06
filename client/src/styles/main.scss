@@ -1,3 +1,34 @@
+// TEXT
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  // background-color (dark grey?)
+}
+
+// font-family: 'Roboto Mono', monospace;
+// font-weight: 500; // 400 also imported
+
+.mono-font {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.medium-font {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.p1 {
+  font-size: 1.1rem;
+}
+
+.p2 {
+  font-size: 1.1rem;
+}
+
 // HERO
 
 #hero {
