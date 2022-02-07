@@ -72,6 +72,10 @@ h1 {
   font-size: 6rem;
 }
 
+.uncolored-icon {
+  filter: invert(67%) sepia(30%) saturate(4754%) hue-rotate(358deg) brightness(102%) contrast(104%);
+}
+
 // PROJECTS
 
 #projects {

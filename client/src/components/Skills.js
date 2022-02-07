@@ -10,6 +10,8 @@ import gitIcon from '../assets/tech/icons8-git.svg'
 import npmIcon from '../assets/tech/icons8-npm.svg'
 import herokuIcon from '../assets/tech/icons8-heroku.svg'
 import xcodeIcon from '../assets/tech/icons8-xcode.svg'
+import ideaIcon from '../assets/tech/icons8-idea.svg'
+import expressIcon from '../assets/tech/expressjs-icon.svg'
 
 function Skills() {
   return (
@@ -26,6 +28,7 @@ function Skills() {
       <img src={djangoIcon} height="100" />
       <img src={nodeIcon} height="100" />
       <p className="text-light">find express, mongodb, insomnia, tableplus, cloudinary logo, c++, bash, homebrew, pip, visual studio (see notes)</p>
+      <img src={expressIcon} height="100" className="uncolored-icon"/>
       <img src={postgresIcon} height="100" />
       <i className="bi bi-terminal-fill icon"></i>
       <img src={gitIcon} height="100" />
@@ -34,9 +37,15 @@ function Skills() {
       <img src={herokuIcon} height="100" />
       <img src={xcodeIcon} height="100" />
 
-
+      <p className="text-light">languages</p>
 
       <h4 className="text-light">Soft Skills</h4>
+      <p className="text-light">communication, adaptability, problem solving, curiousity, open-mindedness</p>
+      <i className="bi bi-chat icon"></i>
+      <i className="bi bi-toggles icon"></i>
+      <i className="bi bi-tools icon"></i>
+      <i className="bi bi-question-circle-fill icon"></i>
+      <img src={ideaIcon} height="100" />
     </section>
   )
 }
