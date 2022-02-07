@@ -19,11 +19,15 @@ function App() {
       <NavBar />
       <Side />
       <div className="container-lg">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+        <div className="row justify-content-center">
+          <div className="col-8">
+            <Hero />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
+          </div>
+        </div>
       </div>
       <Footer />
     </>
