@@ -4,7 +4,7 @@ function MoreProjects() {
       <h5>More projects</h5>
       <div className="row">
         <div className="col-md-6 col-lg-4">
-          <p className="project-card p-5">Project 1</p>
+          <p className="project-card p-5">Project 1<i className="bi bi-box-arrow-up-right"></i></p>
         </div>
         <div className="col-md-6 col-lg-4">
           <p className="project-card p-5">Project 2</p>

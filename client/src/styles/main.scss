@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   // background-color (dark grey?)
+  background-color: #202020;
 }
 
 // font-family: 'Roboto Mono', monospace;
@@ -18,22 +19,26 @@ body {
 }
 
 h1 {
+  color: 	#DCDCDC;
   font-size: 4rem;
 }
 
 .p1 {
+  color: #808080;
   font-size: 1.1rem;
 }
 
 .p2 {
+  // color: #FFA500;
+  color: #ff9900;
   font-size: 1.1rem;
 }
 
 // HERO
 
-#hero {
-  background-color: lightblue;
-}
+// #hero {
+//   background-color: lightblue;
+// }
 
 // ABOUT
 
@@ -58,8 +63,13 @@ h1 {
 
 // SKILLS
 
-#skills {
-  background-color: palevioletred;
+// #skills {
+//   background-color: palevioletred;
+// }
+
+.icon {
+  color: #ff9900;
+  font-size: 6rem;
 }
 
 // PROJECTS
@@ -88,6 +98,22 @@ h1 {
   justify-content: space-between;
   align-items: flex-end;
   width: 600px;
+  border: 1px solid black;
+}
+
+.featured-image-two {
+  text-align: right;
+  width: 750px;
+  margin-left: -160px;
+  border: 1px solid black;
+}
+
+.featured-info-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  align-items: flex-start;
   border: 1px solid black;
 }
 
