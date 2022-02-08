@@ -133,27 +133,20 @@ h2, h3, h4 {
 .featured-image-container {
   width: 650px;
   height: 100%;
-  // right negative margin is arbitrarily greater than some threshold
-  // z-index: -3;
-  // margin-right: -160px;
   border: 1px solid black;
   position: absolute;
   background-image: url('../assets/cryptoAcademy.png');
   background-size: cover;
 }
 
-.featured-image {
-  height: 100%;
-  height: inherit;
-  // z-index: -2;
-  // margin-right: -160px;
-  // margin-right: 300px;
-}
+// .featured-image {
+//   height: 100%;
+// }
 
 .featured-info {
   position: absolute;
   right: 0px;
-  z-index: 3;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -164,21 +157,29 @@ h2, h3, h4 {
 }
 
 .featured-image-two-container {
-  text-align: right;
-  width: 750px;
-  margin-left: -160px;
+  // text-align: right;
+  // margin-left: -160px;
+  width: 650px;
+  height: 100%;
   border: 1px solid black;
+  position: absolute;
+  right: 0px;
+  background-image: url('../assets/compCoin.png');
+  background-size: cover;
 }
 
-.featured-image-two {
-  height: 100%;
-}
+// .featured-image-two {
+//   height: 100%;
+// }
 
 .featured-info-two {
+  position: absolute;
   display: flex;
+  z-index: 1;
   flex-direction: column;
   justify-content: space-between;
   width: 600px;
+  height: 100%;
   align-items: flex-start;
   border: 1px solid black;
 }

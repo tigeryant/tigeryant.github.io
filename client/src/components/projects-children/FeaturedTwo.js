@@ -1,4 +1,4 @@
-import compCoinImage from '../../assets/compCoin.png'
+// import compCoinImage from '../../assets/compCoin.png'
 
 function FeaturedTwo() {
   return (
@@ -21,7 +21,7 @@ function FeaturedTwo() {
           <a href="https://compcoin.netlify.app/" className="icon-link" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
         </div>
         <div className="featured-image-two-container">
-          <img className="featured-image-two" src={compCoinImage} />
+          {/* <img className="featured-image-two" src={compCoinImage} /> */}
         </div>
       </div>
     </section>
