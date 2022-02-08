@@ -20,7 +20,7 @@ function App() {
       <Side />
       <div className="container-lg">
         <div className="row justify-content-center">
-          <div className="col-8">
+          <div className="col-9">
             <Hero />
             <About />
             <Skills />
