@@ -1,14 +1,15 @@
+// import cryptoAcademyImage from '../../assets/cryptoAcademy.png'
+
 function FeaturedOne() {
   return (
     <section id="featured-one">
       <div className="featured-container">
-        <div className="featured-image">
-          {/* image */}
-          <p>featured image</p>
+        <div className="featured-image-container">
+          {/* <img className="featured-image" src={cryptoAcademyImage}/> */}
         </div>
         <div className="featured-info">
-          <p>Featured project</p>
-          <h5>CryptoAcademy - Full Stack Web App</h5>
+          <p className="mono-font">Featured project</p>
+          <h3>CryptoAcademy - Full Stack Web App</h3>
           <p className="info-card">Driven by my interest in cryptography, I built this full stack web app that allows users to browse and enrol on cryptography courses.  I completed this project as part of the Software Engineering Immersive course run by General Assembly.</p>
           <ul>
             <li style={{ display: 'inline' }}>Django &#8226; </li>

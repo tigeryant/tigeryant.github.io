@@ -123,33 +123,55 @@ h2, h3, h4 {
 }
 
 .featured-container {
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
   height: 350px;
   border: 1px solid black;
+  position: relative;
+}
+
+.featured-image-container {
+  width: 650px;
+  height: 100%;
+  // right negative margin is arbitrarily greater than some threshold
+  // z-index: -3;
+  // margin-right: -160px;
+  border: 1px solid black;
+  position: absolute;
+  background-image: url('../assets/cryptoAcademy.png');
+  background-size: cover;
 }
 
 .featured-image {
-  width: 750px;
-  // right negative margin is arbitrarily greater than some threshold
-  margin-right: -160px;
-  border: 1px solid black;
+  height: 100%;
+  height: inherit;
+  // z-index: -2;
+  // margin-right: -160px;
+  // margin-right: 300px;
 }
 
 .featured-info {
+  position: absolute;
+  right: 0px;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
   width: 600px;
+  height: 100%;
   border: 1px solid black;
 }
 
-.featured-image-two {
+.featured-image-two-container {
   text-align: right;
   width: 750px;
   margin-left: -160px;
   border: 1px solid black;
+}
+
+.featured-image-two {
+  height: 100%;
 }
 
 .featured-info-two {
