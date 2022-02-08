@@ -1,7 +1,12 @@
 function Side () {
   return (
     // must use position fixed
-    <h3>Side</h3>
+    <section id="side">
+      <div className="side">
+
+      </div>
+    </section>
+
   )
 }
 

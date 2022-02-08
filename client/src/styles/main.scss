@@ -59,6 +59,17 @@ h2, h3, h4 {
   font-family: 'Roboto Mono', monospace;
 }
 
+// SIDE
+
+.side {
+  width: 70px;
+  height: 400px;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  left: 150px;
+}
+
 // HERO
 
 // #hero {
