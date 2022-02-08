@@ -26,8 +26,9 @@ import cSharpIcon from '../assets/tech/icons8-c-sharp-logo.svg'
 function Skills() {
   return (
     <section className="p-5" id="skills">
-      <h3 className="text-light">Skills</h3>
-      <h4 className="text-light">Tech</h4>
+      <p className="p2" style={{ display: 'inline' }}>02. </p>
+      <h2 style={{ display: 'inline' }}>Skills</h2>
+      <h3>Tech</h3>
       {/* ICONS */}
       <img src={htmlIcon} height="100"/>
       <img src={cssIcon} height="100"/>
@@ -56,9 +57,9 @@ function Skills() {
       <img src={vscodeIcon} height="100" className="uncolored-icon" />
       <img src={xcodeIcon} height="100" />
 
-      <p className="text-light">languages</p>
+      <h3>Languages</h3>
 
-      <h4 className="text-light">Soft Skills</h4>
+      <h3>Soft Skills</h3>
       <p className="text-light">communication, adaptability, problem solving, curiousity, open-mindedness</p>
       <i className="bi bi-chat icon"></i>
       <i className="bi bi-toggles icon"></i>

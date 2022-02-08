@@ -6,21 +6,8 @@ function Footer() {
     <div className="bg-dark text-light p-5" >
       <div className="container-xxl" >
         <div className="row" >
-          <div className="col" >
-            <div className="p-5 footer-element text-muted">
-              Logo</div>
-          </div>
           <div className="col">
-            <div className="p-5 footer-element">
-              <a className="link" href="https://www.github.com/tigeryant" >
-                <i className="bi bi-github text-muted" id="github-logo"></i>
-                <i>linked in icon</i>
-              </a>
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-5 footer-element text-muted">
-              <span dangerouslySetInnerHTML={{ '__html': '&copy;' }} />2022 John Davies (Maybe replace all footer text with &apos;Built by John Davies, inspired by Brittany Chiang&apos; or something similar)
+            <div className="p-5 footer-element text-muted">Built by John Davies, inspired by Brittany Chiang
             </div>
           </div>
         </div>

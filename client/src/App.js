@@ -26,10 +26,10 @@ function App() {
             <Skills />
             <Projects />
             <Contact />
+            <Footer />
           </div>
         </div>
       </div>
-      <Footer />
     </>
   )
 }
