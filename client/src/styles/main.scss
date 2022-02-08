@@ -76,6 +76,10 @@ h1 {
   filter: invert(67%) sepia(30%) saturate(4754%) hue-rotate(358deg) brightness(102%) contrast(104%);
 }
 
+.colored-icon {
+  filter: brightness(0) saturate(100%) invert(67%) sepia(30%) saturate(4754%) hue-rotate(358deg) brightness(102%) contrast(104%);
+}
+
 // PROJECTS
 
 #projects {

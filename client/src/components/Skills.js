@@ -12,6 +12,16 @@ import herokuIcon from '../assets/tech/icons8-heroku.svg'
 import xcodeIcon from '../assets/tech/icons8-xcode.svg'
 import ideaIcon from '../assets/tech/icons8-idea.svg'
 import expressIcon from '../assets/tech/expressjs-icon.svg'
+import mongodbIcon from '../assets/tech/mongodb-svgrepo-com.svg'
+import insomniaIcon from '../assets/tech/insomnia-svgrepo-com.svg'
+import cPlusPlusIcon from '../assets/tech/c-plus-plus-svgrepo-com.svg'
+import bashIcon from '../assets/tech/gnubash-svgrepo-com.svg'
+import homebrewIcon from '../assets/tech/homebrew-svgrepo-com.svg'
+import vscodeIcon from '../assets/tech/visual-studio-svgrepo-com.svg'
+import pipIcon from '../assets/tech/folder-python-svgrepo-com.svg'
+import cloudinaryIcon from '../assets/tech/cloudinary-svgrepo-com.svg'
+import tablePlusIcon from '../assets/tech/tableplus-icon.png'
+import cSharpIcon from '../assets/tech/icons8-c-sharp-logo.svg'
 
 function Skills() {
   return (
@@ -27,14 +37,23 @@ function Skills() {
       <img src={pythonIcon} height="100" />
       <img src={djangoIcon} height="100" />
       <img src={nodeIcon} height="100" />
-      <p className="text-light">find express, mongodb, insomnia, tableplus, cloudinary logo, c++, bash, homebrew, pip, visual studio (see notes)</p>
       <img src={expressIcon} height="100" className="uncolored-icon"/>
+      <img src={mongodbIcon} height="100" className="uncolored-icon" />
+      <img src={insomniaIcon} height="100" className="uncolored-icon" />
       <img src={postgresIcon} height="100" />
+      <img src={tablePlusIcon} height="100" className="colored-icon" />
+      <img src={cloudinaryIcon} height="100" className="colored-icon" />
+      <img src={cPlusPlusIcon} height="100" className="uncolored-icon" />
+      <img src={cSharpIcon} height="100" />
+      <img src={bashIcon} height="100" className="uncolored-icon" />
       <i className="bi bi-terminal-fill icon"></i>
       <img src={gitIcon} height="100" />
       <i className="bi bi-github icon"></i>
       <img src={npmIcon} height="100" />
+      <img src={homebrewIcon} height="100" className="uncolored-icon" />
+      <img src={pipIcon} height="100" className="uncolored-icon" />
       <img src={herokuIcon} height="100" />
+      <img src={vscodeIcon} height="100" className="uncolored-icon" />
       <img src={xcodeIcon} height="100" />
 
       <p className="text-light">languages</p>
