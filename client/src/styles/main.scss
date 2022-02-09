@@ -49,6 +49,10 @@ h2, h3, h4 {
   color: #DCDCDC;
 }
 
+h4 {
+  font-size: 1.35rem;
+}
+
 .p1 {
   color: #808080;
   font-size: 1.1rem;
@@ -215,7 +219,7 @@ h2, h3, h4 {
   // border: 1px solid black;
   margin: 30px 0 30px 0;
   background-color: $card-black;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   display: flex;
   flex-direction: column;
@@ -224,6 +228,7 @@ h2, h3, h4 {
 
 .light-text {
   font-weight: 300;
+  font-size: 0.95rem;
 }
 
 ul {
@@ -234,10 +239,12 @@ ul {
 .icon-link {
   color: #808080;
   font-size: 1.6rem;
+  text-decoration: none;
 }
 
 .icon-link :hover {
   color: #FF9900;
+  text-decoration: none;
 }
 
 // .card-icon {
