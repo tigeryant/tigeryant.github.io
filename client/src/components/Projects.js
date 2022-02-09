@@ -7,8 +7,10 @@ function Projects() {
   return (
     // Return featured project 1, featured project 2, other projects
     <section className="p-5" id="projects">
-      <p className="p2" style={{ display: 'inline' }}>03. </p>
-      <h2 style={{ display: 'inline' }}>Projects</h2>
+      <div className="my-4">
+        <p className="p2" style={{ display: 'inline' }}>03. </p>
+        <h2 style={{ display: 'inline' }}>Projects</h2>
+      </div>
       <FeaturedOne />
       <FeaturedTwo />
       <MoreProjects />

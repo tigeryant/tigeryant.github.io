@@ -3,19 +3,19 @@
 // $primary: red;
 // $background-black: #202020;
 
-@import '../../node_modules/bootstrap/scss/functions';
-@import '../../node_modules/bootstrap/scss/variables';
+// @import '../../node_modules/bootstrap/scss/functions';
+// @import '../../node_modules/bootstrap/scss/variables';
 
-$custom-theme-colors: (
-  "background-black": #202020,
-  "light-grey": #DCDCDC,
-  "dark-grey": #808080,
-  "orange": #FF9900
-);
+// $custom-theme-colors: (
+//   "background-black": #202020,
+//   "light-grey": #DCDCDC,
+//   "dark-grey": #808080,
+//   "orange": #FF9900
+// );
 
-$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+// $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
-@import '../../node_modules/bootstrap/scss/bootstrap';
+// @import '../../node_modules/bootstrap/scss/bootstrap';
 
 // TEXT
 
@@ -118,25 +118,29 @@ h2, h3, h4 {
 
 // PROJECTS
 
-#projects {
-  background-color: palegreen;
-}
+// #projects {
+//   background-color: palegreen;
+// }
 
 .featured-container {
   // display: flex;
   // justify-content: space-between;
-  height: 350px;
-  border: 1px solid black;
+  height: 370px;
+  // border: 1px solid black;
   position: relative;
 }
 
 .featured-image-container {
-  width: 650px;
+  width: 600px;
   height: 100%;
-  border: 1px solid black;
+  // border: 1px solid black;
   position: absolute;
   background-image: url('../assets/cryptoAcademy.png');
   background-size: cover;
+  // filter: brightness(80%);
+  border-radius: 5px;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 // .featured-image {
@@ -151,15 +155,35 @@ h2, h3, h4 {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  width: 600px;
+  width: 570px;
   height: 100%;
-  border: 1px solid black;
+  // border: 1px solid black;
+}
+
+.featured-info * {
+  font-weight: 400;
+}
+
+.info-card {
+  width: 100%;
+  // height: 150px;
+  // border: 1px solid black;
+  background-color: #080808;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 300;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  text-align: right;
+}
+
+.project-tech * {
+  font-weight: 300;
 }
 
 .featured-image-two-container {
   // text-align: right;
   // margin-left: -160px;
-  width: 650px;
+  width: 550px;
   height: 100%;
   border: 1px solid black;
   position: absolute;
@@ -184,20 +208,18 @@ h2, h3, h4 {
   border: 1px solid black;
 }
 
-.info-card {
-  width: 100%;
-  height: 150px;
-  border: 1px solid black;
-}
-
 .project-card {
   height: 250px;
   border: 1px solid black;
 }
 
 .icon-link {
-  color: #FF9900;
+  color: #808080;
   font-size: 1.6rem;
+}
+
+.icon-link :hover {
+  color: #FF9900;
 }
 
 
