@@ -1,13 +1,13 @@
 function MoreProjects() {
   return (
     <section id="more-projects">
-      <h5>More projects</h5>
+      <h3 className="mt-5">More projects</h3>
       <div className="row">
         <div className="col-md-6 col-lg-4">
           <div className="project-card p-3">
-            <h3>A Star Pathfinding Algorithm</h3>
-            <p className="p1">Interactive visualisation of the A star pathfinding algorithm.</p>
-            <ul className="p1">
+            <h4>A Star Pathfinding Algorithm</h4>
+            <p className="p1 light-text">Interactive visualisation of the A star pathfinding algorithm.</p>
+            <ul className="p1 light-text project-tech">
               <li style={{ display: 'inline' }}>Python &#8226; </li>
               <li style={{ display: 'inline' }}>Pygame</li>
             </ul>
@@ -33,7 +33,7 @@ function MoreProjects() {
               <li style={{ display: 'inline' }}>Python &#8226; </li>
               <li style={{ display: 'inline' }}>Numpy &#8226; </li>
               <li style={{ display: 'inline' }}>Pandas &#8226; </li>
-              <li style={{ display: 'inline' }}>Matplotlib &#8226; </li>
+              <li style={{ display: 'inline' }}>Matplotlib</li>
             </ul>
             <a href="https://github.com/tigeryant/pi-estimator" className="icon-link"><i className="bi bi-github" target="_blank" rel="noreferrer"></i></a>
           </div>

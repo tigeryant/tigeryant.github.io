@@ -2,6 +2,8 @@
 
 // $primary: red;
 // $background-black: #202020;
+$card-black: #080808;
+$orange: #FF9900;
 
 // @import '../../node_modules/bootstrap/scss/functions';
 // @import '../../node_modules/bootstrap/scss/variables';
@@ -17,7 +19,7 @@
 
 // @import '../../node_modules/bootstrap/scss/bootstrap';
 
-// TEXT
+// * * * * * * * * * * * * TEXT * * * * * * * * * * * * * * *
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -59,7 +61,7 @@ h2, h3, h4 {
   font-family: 'Roboto Mono', monospace;
 }
 
-// SIDE
+// * * * * * * * * * * * * SIDE * * * * * * * * * * * * * * *
 
 .side {
   width: 70px;
@@ -70,13 +72,13 @@ h2, h3, h4 {
   left: 150px;
 }
 
-// HERO
+//  * * * * * * * * * * * * * * * HERO * * * * * * * * * * * * * * * * * *
 
 // #hero {
 //   background-color: lightblue;
 // }
 
-// ABOUT
+//  * * * * * * * * * * * * * * * ABOUT * * * * * * * * * * * * * * * * * *
 
 #about {
   background-color: limegreen;
@@ -97,7 +99,7 @@ h2, h3, h4 {
   border: 1px solid black;
 }
 
-// SKILLS
+// * * * * * * * * * * * * SKILLS * * * * * * * * * * * * * * *
 
 // #skills {
 //   background-color: palevioletred;
@@ -116,7 +118,7 @@ h2, h3, h4 {
   filter: brightness(0) saturate(100%) invert(67%) sepia(30%) saturate(4754%) hue-rotate(358deg) brightness(102%) contrast(104%);
 }
 
-// PROJECTS
+// * * * * * * * * * * * * * * * PROJECTS * * * * * * * * * * * * * * * * * *
 
 // #projects {
 //   background-color: palegreen;
@@ -210,7 +212,23 @@ h2, h3, h4 {
 
 .project-card {
   height: 250px;
-  border: 1px solid black;
+  // border: 1px solid black;
+  margin: 30px 0 30px 0;
+  background-color: $card-black;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
 .icon-link {
@@ -222,15 +240,23 @@ h2, h3, h4 {
   color: #FF9900;
 }
 
+// .card-icon {
+//   display: block;
+// }
+
+.project-tech {
+  margin-bottom: auto;
+}
 
 
-// CONTACT
+
+// * * * * * * * * * * * * * * CONTACT * * * * * * * * * * * * * * *
 
 #contact {
   background-color: teal;
 }
 
-// FOOTER
+// * * * * * * * * * * * * FOOTER * * * * * * * * * * * * * * * * * *
 
 .footer-element {
   display: flex;
