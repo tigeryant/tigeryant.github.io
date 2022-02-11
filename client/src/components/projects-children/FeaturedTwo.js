@@ -2,24 +2,24 @@
 
 function FeaturedTwo() {
   return (
-    <section id="featured-two">
-      <h5>Featured project two</h5>
-      <div className="featured-container">
-        <div className="featured-info-two">
-          <p className="p2">Featured project</p>
+    <section id="featured-two second">
+      <div className="featured-container second">
+        <div className="featured-info second">
+          <p className="p2 featured-header">Featured project</p>
           <h3>CompCoin - React App</h3>
-          <p className="info-card p1">React app that consumes the Coinbase API to display cryptocurrency exchange rates. This pair programming project was completed as part of the Software Engineering Immersive course run by General Assembly.</p>
-          <ul className="p1">
-            {/* move the styling to the stylesheet */}
-            <li style={{ display: 'inline' }}>Coinbase API &#8226; </li>
-            <li style={{ display: 'inline' }}>React &#8226; </li>
-            <li style={{ display: 'inline' }}>Bulma &#8226; </li>
-            <li style={{ display: 'inline' }}>React-Vis</li>
+          <p className="info-card second p1 p-2">React app that consumes the Coinbase API to display cryptocurrency exchange rates. This pair programming project was completed as part of the Software Engineering Immersive course run by General Assembly.</p>
+          <ul className="project-tech second p1">
+            <li className="tech-list-item second">Coinbase API &#8226; </li>
+            <li className="tech-list-item second">React &#8226; </li>
+            <li className="tech-list-item second">Bulma &#8226; </li>
+            <li className="tech-list-item second">React-Vis</li>
           </ul>
-          <a href="https://github.com/tigeryant/sei-project-two" className="icon-link" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
-          <a href="https://compcoin.netlify.app/" className="icon-link" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+          <div className="featured-links-container mb-4 ms-4">
+            <a href="https://github.com/tigeryant/sei-project-two" className="icon-link second me-3" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
+            <a href="https://compcoin.netlify.app/" className="icon-link second" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
+          </div>
         </div>
-        <div className="featured-image-two-container">
+        <div className="featured-image-container second">
           {/* <img className="featured-image-two" src={compCoinImage} /> */}
         </div>
       </div>
