@@ -1,8 +1,10 @@
+import logo from '../assets/logo.png'
+
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
       <div className="container-lg">
-        <a className="navbar-brand ms-4 ms-lg-0" href="#">J</a>
+        <a className="navbar-brand ms-4 ms-lg-0" href="#"><img src={logo} className="logo"></img></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
