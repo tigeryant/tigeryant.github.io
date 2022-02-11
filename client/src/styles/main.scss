@@ -4,6 +4,8 @@
 // $background-black: #202020;
 $card-black: #080808;
 $orange: #FF9900;
+$light-grey: #DCDCDC;
+$dark-grey: #808080;
 
 // @import '../../node_modules/bootstrap/scss/functions';
 // @import '../../node_modules/bootstrap/scss/variables';
@@ -19,7 +21,7 @@ $orange: #FF9900;
 
 // @import '../../node_modules/bootstrap/scss/bootstrap';
 
-// * * * * * * * * * * * * TEXT * * * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * * * * * * * TEXT * * * * * * * * * * * * * * * * * * * * * * * * 
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -49,6 +51,10 @@ h2, h3, h4 {
   color: #DCDCDC;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 h4 {
   font-size: 1.35rem;
 }
@@ -65,43 +71,57 @@ h4 {
   font-family: 'Roboto Mono', monospace;
 }
 
-// * * * * * * * * * * * * SIDE * * * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * SIDE * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 .side {
   width: 70px;
-  height: 400px;
-  background-color: red;
+  height: 450px;
+  // background-color: blue;
+  // opacity: 0.2;
   position: fixed;
   bottom: 0;
-  left: 150px;
+  left: 40px;
+  margin: auto auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  // display: clamp(0px, none, 641px);
+}
+
+.line {
+  border-left: 1px solid $orange;
+  height: 50%;
 }
 
 //  * * * * * * * * * * * * * * * HERO * * * * * * * * * * * * * * * * * *
 
-// #hero {
-//   background-color: lightblue;
-// }
-
 //  * * * * * * * * * * * * * * * ABOUT * * * * * * * * * * * * * * * * * *
-
-#about {
-  background-color: limegreen;
-}
 
 .about-container {
   // display: flex;
   // justify-content: space-between;
-  border: 1px solid black;
+  height: 400px;
+  // border: 1px solid black;
 }
 
-.about-text {
-  border: 1px solid red;
-}
+// .about-text {
+//   // border: 1px solid red;
+// }
 
 .about-image-container {
   // width: 400px;
-  border: 1px solid black;
+  height: 100%;
+  // border: 1px solid black;
 }
+
+.about-image {
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
 
 // * * * * * * * * * * * * SKILLS * * * * * * * * * * * * * * *
 
@@ -287,3 +307,23 @@ ul {
   color: #FFFFFF;
 }
 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * MORE ICONS * * * * * * * * * * * * * * * * * * * * * * * * 
+
+.side-icon {
+  // color: #FF9900;
+  font-size: 1.9rem;
+  // text-decoration: none;
+}
+
+// .side-icon :hover {
+//   color: #FF9900;
+//   text-decoration: none;
+// }
+
+// * * * * * * * * * * * * * * * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+@media only screen and (max-width: 1300px) {
+  .side {
+      display: none;
+  }
+}
