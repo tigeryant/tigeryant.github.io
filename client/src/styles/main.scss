@@ -151,6 +151,23 @@ h4 {
   filter: brightness(0) saturate(100%) invert(67%) sepia(30%) saturate(4754%) hue-rotate(358deg) brightness(102%) contrast(104%);
 }
 
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill-icon {
+  margin-bottom: 10px;
+}
+
+.tech-container {
+  display: flex;
+  flex-flow: wrap;
+  align-items: baseline;
+}
+
 // * * * * * * * * * * * * * * * PROJECTS * * * * * * * * * * * * * * * * * *
 
 // #projects {

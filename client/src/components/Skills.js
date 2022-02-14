@@ -22,6 +22,7 @@ import pipIcon from '../assets/tech/folder-python-svgrepo-com.svg'
 import cloudinaryIcon from '../assets/tech/cloudinary-svgrepo-com.svg'
 import tablePlusIcon from '../assets/tech/tableplus-icon.png'
 import cSharpIcon from '../assets/tech/icons8-c-sharp-logo.svg'
+import netlifyIcon from '../assets/tech/netlify-icon.svg'
 
 function Skills() {
   return (
@@ -30,32 +31,170 @@ function Skills() {
       <h2 style={{ display: 'inline' }}>Skills</h2>
       <h3>Tech</h3>
       {/* ICONS */}
-      <img src={htmlIcon} height="100"/>
-      <img src={cssIcon} height="100"/>
-      <img src={javascriptIcon} height="100"/>
-      <img src={reactIcon} height="100"/>
-      <i className="bi bi-bootstrap-fill icon"></i>
-      <img src={pythonIcon} height="100" />
-      <img src={djangoIcon} height="100" />
-      <img src={nodeIcon} height="100" />
-      <img src={expressIcon} height="100" className="uncolored-icon"/>
-      <img src={mongodbIcon} height="100" className="uncolored-icon" />
-      <img src={insomniaIcon} height="100" className="uncolored-icon" />
-      <img src={postgresIcon} height="100" />
-      <img src={tablePlusIcon} height="100" className="colored-icon" />
-      <img src={cloudinaryIcon} height="100" className="colored-icon" />
-      <img src={cPlusPlusIcon} height="100" className="uncolored-icon" />
-      <img src={cSharpIcon} height="100" />
-      <img src={bashIcon} height="100" className="uncolored-icon" />
-      <i className="bi bi-terminal-fill icon"></i>
-      <img src={gitIcon} height="100" />
-      <i className="bi bi-github icon"></i>
-      <img src={npmIcon} height="100" />
-      <img src={homebrewIcon} height="100" className="uncolored-icon" />
-      <img src={pipIcon} height="100" className="uncolored-icon" />
-      <img src={herokuIcon} height="100" />
-      <img src={vscodeIcon} height="100" className="uncolored-icon" />
-      <img src={xcodeIcon} height="100" />
+      <div className="tech-container">
+        <div className="skill-container">
+          <img src={htmlIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            HTML
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={cssIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            CSS
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={javascriptIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            JavaScript
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={reactIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            React
+          </p>  
+        </div>
+        <div className="skill-container">
+          <i className="bi bi-bootstrap-fill icon skill-icon"></i>
+          <p className="skill-caption p2">
+            Bootstrap
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={pythonIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            Python
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={djangoIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            Django
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={nodeIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            Node
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={expressIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Express
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={mongodbIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Mongo
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={insomniaIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Insomnia
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={postgresIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            PostgreSQL
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={tablePlusIcon} height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            TablePlus
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={cloudinaryIcon} height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Cloudinary
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={cPlusPlusIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            C++
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={cSharpIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            C#
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={bashIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Bash
+          </p>  
+        </div>
+        <div className="skill-container">
+          <i className="bi bi-terminal-fill icon skill-icon"></i>
+          <p className="skill-caption p2">
+            Zsh
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={gitIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            Git
+          </p>  
+        </div>
+        <div className="skill-container">
+          <i className="bi bi-github icon skill-icon"></i>
+          <p className="skill-caption p2">
+            GitHub
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={npmIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            npm
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={homebrewIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Homebrew
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={pipIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Pip
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={herokuIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            Heroku
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={netlifyIcon} height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Netlify
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={vscodeIcon} height="100" className="uncolored-icon skill-icon" />
+          <p className="skill-caption p2">
+            VScode
+          </p>  
+        </div>
+        <div className="skill-container">
+          <img src={xcodeIcon} height="100" className="skill-icon"/>
+          <p className="skill-caption p2">
+            Xcode
+          </p>  
+        </div>
+      </div>
 
       <h3>Languages</h3>
 
