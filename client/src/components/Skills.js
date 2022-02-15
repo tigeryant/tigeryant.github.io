@@ -1,3 +1,4 @@
+// SKILL ICONS
 import htmlIcon from '../assets/tech/icons8-html-5.svg'
 import cssIcon from '../assets/tech/icons8-css3.svg'
 import javascriptIcon from '../assets/tech/icons8-javascript.svg'
@@ -7,11 +8,12 @@ import pythonIcon from '../assets/tech/icons8-python.svg'
 import djangoIcon from '../assets/tech/icons8-django.svg'
 import nodeIcon from '../assets/tech/icons8-node-js.svg'
 import postgresIcon from '../assets/tech/icons8-postgresql.svg'
+import githubIcon from '../assets/tech/github.svg'
+import zshIcon from '../assets/tech/terminal-fill.svg'
 import gitIcon from '../assets/tech/icons8-git.svg'
 import npmIcon from '../assets/tech/icons8-npm.svg'
 import herokuIcon from '../assets/tech/icons8-heroku.svg'
 import xcodeIcon from '../assets/tech/icons8-xcode.svg'
-import ideaIcon from '../assets/tech/icons8-idea.svg'
 import expressIcon from '../assets/tech/expressjs-icon.svg'
 import mongodbIcon from '../assets/tech/mongodb-svgrepo-com.svg'
 import insomniaIcon from '../assets/tech/insomnia-svgrepo-com.svg'
@@ -25,14 +27,26 @@ import tablePlusIcon from '../assets/tech/tableplus-icon.png'
 import cSharpIcon from '../assets/tech/icons8-c-sharp-logo.svg'
 import netlifyIcon from '../assets/tech/netlify-icon.svg'
 
+// FLAG ICONS
+import ukFlag from '../assets/flags/uk-flag.svg'
+import portugalFlag from '../assets/flags/portugal-flag.svg'
+
+// SOFT SKILL ICONS
+import communicationIcon from '../assets/soft-skills/chat.svg'
+import adaptabilityIcon from '../assets/soft-skills/toggles.svg'
+import solvingIcon from '../assets/soft-skills/tools.svg'
+import curiosityIcon from '../assets/soft-skills/question-circle-fill.svg'
+import ideaIcon from '../assets/tech/icons8-idea.svg'
+
 function Skills() {
   return (
     <section className="p-5" id="skills">
-      <p className="p2" style={{ display: 'inline' }}>02. </p>
-      <h2 style={{ display: 'inline' }}>Skills</h2>
-      <h3>Tech</h3>
-      {/* ICONS */}
-      <div className="tech-container">
+      <div className="my-5">
+        <p className="p2" style={{ display: 'inline' }}>02. </p>
+        <h2 style={{ display: 'inline' }}>Skills</h2>
+      </div>
+      <h3 className="my-5">Tech</h3>
+      <div className="tech-container my-5">
         <div className="skill-container">
           <img src={htmlIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
@@ -136,7 +150,7 @@ function Skills() {
           </p>
         </div>
         <div className="skill-container">
-          <i className="bi bi-terminal-fill icon skill-icon"></i>
+          <img src={zshIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Zsh
           </p>
@@ -148,7 +162,7 @@ function Skills() {
           </p>
         </div>
         <div className="skill-container">
-          <i className="bi bi-github icon skill-icon"></i>
+          <img src={githubIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             GitHub
           </p>
@@ -156,7 +170,7 @@ function Skills() {
         <div className="skill-container">
           <img src={npmIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
-            npm
+            NPM
           </p>
         </div>
         <div className="skill-container">
@@ -197,15 +211,55 @@ function Skills() {
         </div>
       </div>
 
-      <h3>Languages</h3>
+      <h3 className="my-5">Soft Skills</h3>
+      <div className="tech-container my-5">
+        <div className="skill-container">
+          <img src={communicationIcon} height="100" className="skill-icon uncolored-icon" />
+          <p className="skill-caption p2">
+            Communication
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={adaptabilityIcon} height="100" className="skill-icon uncolored-icon" />
+          <p className="skill-caption p2">
+            Adapdability
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={solvingIcon} height="100" className="skill-icon uncolored-icon" />
+          <p className="skill-caption p2">
+            Problem Solving
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={curiosityIcon} height="100" className="skill-icon uncolored-icon" />
+          <p className="skill-caption p2">
+            Curiosity
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={ideaIcon} height="100" className="skill-icon colored-icon" />
+          <p className="skill-caption p2">
+            Open mindedness
+          </p>
+        </div>
+      </div>
 
-      <h3>Soft Skills</h3>
-      <p className="text-light">communication, adaptability, problem solving, curiousity, open-mindedness</p>
-      <i className="bi bi-chat icon"></i>
-      <i className="bi bi-toggles icon"></i>
-      <i className="bi bi-tools icon"></i>
-      <i className="bi bi-question-circle-fill icon"></i>
-      <img src={ideaIcon} height="100" />
+      <h3 className="my-5">Languages</h3>
+      <div className="flags-container my-5">
+        <div className="skill-container">
+          <img src={ukFlag} height="100" className="skill-icon" />
+          <p className="skill-caption p2">
+            English (native)
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={portugalFlag} height="100" className="skill-icon" />
+          <p className="skill-caption p2">
+            Portuguese (limited proficiency)
+          </p>
+        </div>
+      </div>
     </section>
   )
 }
