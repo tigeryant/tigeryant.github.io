@@ -356,6 +356,21 @@ ul {
   color: #FFFFFF;
 }
 
+.contact-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-container {
+  display: flex;
+  // align-items: center;
+}
+
+#email-icon {
+  margin-top: -5px;
+}
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * MORE ICONS * * * * * * * * * * * * * * * * * * * * * * * * 
 
 .side-icon {
