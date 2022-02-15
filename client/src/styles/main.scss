@@ -106,10 +106,14 @@ h4 {
 //  * * * * * * * * * * * * * * * HERO * * * * * * * * * * * * * * * * * *
 
 #hero {
-  margin: 300px 0 400px 0;
+  margin: 300px 0 450px 0;
 }
 
 //  * * * * * * * * * * * * * * * ABOUT * * * * * * * * * * * * * * * * * *
+
+#about {
+  margin: 0 0 200px 0;
+}
 
 .about-container {
   // display: flex;
@@ -138,9 +142,9 @@ h4 {
 
 // * * * * * * * * * * * * SKILLS * * * * * * * * * * * * * * *
 
-// #skills {
-//   background-color: palevioletred;
-// }
+#skills {
+  margin: 0 0 200px 0;
+}
 
 .icon {
   color: #ff9900;
@@ -178,9 +182,9 @@ h4 {
 
 // * * * * * * * * * * * * * * * PROJECTS * * * * * * * * * * * * * * * * * *
 
-// #projects {
-//   background-color: palegreen;
-// }
+#projects {
+  margin: 0 0 50px 0;
+}
 
 .featured-container {
   height: 370px;
