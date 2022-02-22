@@ -106,13 +106,14 @@ h4 {
 //  * * * * * * * * * * * * * * * HERO * * * * * * * * * * * * * * * * * *
 
 #hero {
-  margin: 300px 0 450px 0;
+  margin: 300px 0 400px 0;
 }
 
 //  * * * * * * * * * * * * * * * ABOUT * * * * * * * * * * * * * * * * * *
 
 #about {
   margin: 0 0 200px 0;
+  
 }
 
 .about-container {
@@ -120,6 +121,7 @@ h4 {
   // justify-content: space-between;
   height: 400px;
   // border: 1px solid black;
+  margin-top: 50px;
 }
 
 // .about-text {
