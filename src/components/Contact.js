@@ -22,7 +22,7 @@ function Contact() {
         <p className="p2" style={{ display: 'inline' }}>04. </p>
         <h2 style={{ display: 'inline' }}>Get In Touch</h2>
       </div>
-      <p className="p1">I&apos;m currently looking for a role as a full stack, back end or front end engineer. If you want to get in touch, message me on LinkedIn or send me an email and I&apos;ll get back to you as soon as possible!</p>
+      <p className="p1">I&apos;m currently looking for a role as a backend engineer. If you want to get in touch, message me on LinkedIn or send me an email and I&apos;ll get back to you as soon as possible!</p>
       <div className="contact-icons ms-auto me-auto mt-5">
         <div className="contact-links-container">
           <div className="email-container">
