@@ -393,3 +393,9 @@ ul {
       display: none;
   }
 }
+
+@media only screen and (max-width: 1400px) {
+  .project-tech {
+      width: 20vw;
+  }
+}
