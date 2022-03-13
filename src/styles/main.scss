@@ -71,12 +71,6 @@ h4 {
   font-family: 'Roboto Mono', monospace;
 }
 
-@media only screen and (max-width: 1300px) {
-  .p2 {
-    // font-size: 0.9rem;
-  }
-}
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * NAVBAR * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 .logo {
   height: 50px;
@@ -274,7 +268,6 @@ h4 {
   .featured-image-container {
     width: 90vw;
     margin-left: -10px;
-    // height: 65%;
   }
 
   .featured-image-container, second {
