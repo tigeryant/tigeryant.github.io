@@ -40,7 +40,7 @@ import ideaIcon from '../assets/tech/icons8-idea.svg'
 
 function Skills() {
   return (
-    <section className="p-5" id="skills">
+    <section className=" p-md-5" id="skills">
       <div className="my-5">
         <p className="p2" style={{ display: 'inline' }}>02. </p>
         <h2 style={{ display: 'inline' }}>Skills</h2>
@@ -220,11 +220,12 @@ function Skills() {
           </p>
         </div>
         <div className="skill-container">
-          <img src={adaptabilityIcon} height="100" className="skill-icon uncolored-icon" />
-          <p className="skill-caption p2">
-            Adapdability
+          <img src={ideaIcon} height="100" className="skill-icon colored-icon" />
+          <p className="skill-caption p2" style={{ textAlign: 'center' }}>
+            Open mindedness
           </p>
         </div>
+        
         <div className="skill-container">
           <img src={solvingIcon} height="100" className="skill-icon uncolored-icon" />
           <p className="skill-caption p2">
@@ -238,9 +239,9 @@ function Skills() {
           </p>
         </div>
         <div className="skill-container">
-          <img src={ideaIcon} height="100" className="skill-icon colored-icon" />
+          <img src={adaptabilityIcon} height="100" className="skill-icon uncolored-icon" />
           <p className="skill-caption p2">
-            Open mindedness
+            Adapdability
           </p>
         </div>
       </div>

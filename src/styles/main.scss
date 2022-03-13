@@ -71,6 +71,12 @@ h4 {
   font-family: 'Roboto Mono', monospace;
 }
 
+@media only screen and (max-width: 1300px) {
+  .p2 {
+    // font-size: 0.9rem;
+  }
+}
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * NAVBAR * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 .logo {
   height: 50px;
@@ -190,6 +196,27 @@ h4 {
 
 .flags-container {
   display: flex;
+}
+
+@media only screen and (max-width: 1300px) {
+  // #skills {
+    // padding-left: -50px;
+  // }
+
+  .skill-icon {
+    height: 50px;
+  }
+
+  .skill-container {
+    // padding: 0 10px 0 10px;
+    // margin: 0 10px 0 10px;
+    // justify-content: space-between;
+    width: 100px;
+  }
+
+  .skill-caption {
+    font-size: 0.9rem;
+  }
 }
 
 // * * * * * * * * * * * * * * * PROJECTS * * * * * * * * * * * * * * * * * *
