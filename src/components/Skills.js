@@ -40,7 +40,7 @@ import ideaIcon from '../assets/tech/icons8-idea.svg'
 
 function Skills() {
   return (
-    <section className=" p-md-5" id="skills">
+    <section className="p-md-5" id="skills">
       <div className="my-5">
         <p className="p2" style={{ display: 'inline' }}>02. </p>
         <h2 style={{ display: 'inline' }}>Skills</h2>

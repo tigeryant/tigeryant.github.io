@@ -14,7 +14,7 @@ function FeaturedTwo() {
             <li className="tech-list-item second">Bulma &#8226; </li>
             <li className="tech-list-item second">React-Vis</li>
           </ul>
-          <div className="featured-links-container mb-4 ms-4">
+          <div className="featured-links-container mb-md-4 ms-md-4">
             <a href="https://github.com/tigeryant/sei-project-two" className="icon-link second me-3" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
             <a href="https://compcoin.netlify.app/" className="icon-link second" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
           </div>

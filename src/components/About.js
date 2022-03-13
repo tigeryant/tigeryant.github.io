@@ -2,7 +2,7 @@ import portrait from '../assets/portrait.JPG'
 
 function About() {
   return (
-    <section className="p-5" id="about">
+    <section className="p-md-5" id="about">
       <div className="about-container row">
         <div className="about-text col-7">
           <div className="pb-4">
