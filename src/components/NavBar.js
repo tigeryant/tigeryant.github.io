@@ -10,7 +10,6 @@ function NavBar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarsExample04">
-          {/* HERE */}
           <ul className="navbar-nav ms-auto mb-2 mb-md-0">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#about">About</a>
@@ -25,9 +24,6 @@ function NavBar() {
               <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          {/* <form>
-            <input className="form-control" type="text" placeholder="Search" aria-label="Search" />
-          </form> */}
         </div>
       </div>
     </nav>

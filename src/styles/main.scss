@@ -1,37 +1,17 @@
-// VARS NOT CURRENTLY IN USE
+// VARS
 
-// $primary: red;
-// $background-black: #202020;
 $card-black: #080808;
 $orange: #FF9900;
 $light-grey: #DCDCDC;
 $dark-grey: #808080;
-
-// @import '../../node_modules/bootstrap/scss/functions';
-// @import '../../node_modules/bootstrap/scss/variables';
-
-// $custom-theme-colors: (
-//   "background-black": #202020,
-//   "light-grey": #DCDCDC,
-//   "dark-grey": #808080,
-//   "orange": #FF9900
-// );
-
-// $theme-colors: map-merge($custom-theme-colors, $theme-colors);
-
-// @import '../../node_modules/bootstrap/scss/bootstrap';
 
 // * * * * * * * * * * * * * * * * * * * * * TEXT * * * * * * * * * * * * * * * * * * * * * * * * 
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  // background-color (dark grey?)
   background-color: #202020;
 }
-
-// font-family: 'Roboto Mono', monospace;
-// font-weight: 500; // 400 also imported
 
 .mono-font {
   font-family: 'Roboto Mono', monospace;
@@ -46,7 +26,6 @@ h1 {
   font-size: 4rem;
 }
 
-// remove smaller ones later
 h2, h3, h4 {
   color: #DCDCDC;
 }
@@ -65,7 +44,6 @@ h4 {
 }
 
 .p2 {
-  // color: #FFA500;
   color: #ff9900;
   font-size: 1.1rem;
   font-family: 'Roboto Mono', monospace;
@@ -76,17 +54,11 @@ h4 {
   height: 50px;
 }
 
-// nav {
-//   position: fixed;
-// }
-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * SIDE * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 .side {
   width: 70px;
   height: 450px;
-  // background-color: blue;
-  // opacity: 0.2;
   position: fixed;
   bottom: 0;
   left: 40px;
@@ -95,12 +67,17 @@ h4 {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  // display: clamp(0px, none, 641px);
 }
 
 .line {
   border-left: 1px solid $orange;
   height: 50%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .side {
+      display: none;
+  }
 }
 
 //  * * * * * * * * * * * * * * * HERO * * * * * * * * * * * * * * * * * *
@@ -150,7 +127,6 @@ h4 {
     margin-left: -7px;
   }
 }
-
 
 // * * * * * * * * * * * * SKILLS * * * * * * * * * * * * * * *
 
@@ -202,9 +178,6 @@ h4 {
   }
 
   .skill-container {
-    // padding: 0 10px 0 10px;
-    // margin: 0 10px 0 10px;
-    // justify-content: space-between;
     width: 100px;
   }
 
@@ -376,10 +349,6 @@ ul {
   cursor: pointer;
 }
 
-// .card-icon {
-//   display: block;
-// }
-
 .project-tech {
   margin-bottom: auto;
 }
@@ -395,11 +364,9 @@ ul {
 // * * * * * * * * * * * * * * CONTACT * * * * * * * * * * * * * * *
 
 #contact {
-  // background-color: teal;
   height: 500px;
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   margin: 0px 0 200px 0;
 }
 
@@ -448,7 +415,6 @@ ul {
 
 .email-container {
   display: flex;
-  // align-items: center;
 }
 
 #email-icon {
@@ -458,26 +424,5 @@ ul {
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * MORE ICONS * * * * * * * * * * * * * * * * * * * * * * * * 
 
 .side-icon {
-  // color: #FF9900;
   font-size: 1.9rem;
-  // text-decoration: none;
 }
-
-// .side-icon :hover {
-//   color: #FF9900;
-//   text-decoration: none;
-// }
-
-// * * * * * * * * * * * * * * * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-
-@media only screen and (max-width: 1300px) {
-  .side {
-      display: none;
-  }
-}
-
-// @media only screen and (max-width: 1400px) {
-//   .project-tech {
-//       width: 20vw;
-//   }
-// }

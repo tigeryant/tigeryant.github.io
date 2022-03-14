@@ -9,9 +9,6 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-// placeholder components added - figure out what's next!!
-
-
 function App() {
 
   return (

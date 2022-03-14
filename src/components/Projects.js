@@ -5,7 +5,6 @@ import MoreProjects from './projects-children/MoreProjects'
 
 function Projects() {
   return (
-    // Return featured project 1, featured project 2, other projects
     <section className="p-md-5" id="projects">
       <div className="my-4">
         <p className="p2" style={{ display: 'inline' }}>03. </p>

@@ -1,5 +1,3 @@
-// import compCoinImage from '../../assets/compCoin.png'
-
 function FeaturedTwo() {
   return (
     <section id="featured-two second">
@@ -20,7 +18,6 @@ function FeaturedTwo() {
           </div>
         </div>
         <div className="featured-image-container second">
-          {/* <img className="featured-image-two" src={compCoinImage} /> */}
         </div>
       </div>
     </section>

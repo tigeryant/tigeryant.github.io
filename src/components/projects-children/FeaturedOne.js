@@ -1,11 +1,8 @@
-// import cryptoAcademyImage from '../../assets/cryptoAcademy.png'
-
 function FeaturedOne() {
   return (
     <section id="featured-one first">
       <div className="featured-container first">
         <div className="featured-image-container first">
-          {/* <img className="featured-image" src={cryptoAcademyImage}/> */}
         </div>
         <div className="featured-info">
           <p className="p2 featured-header">Featured project</p>
@@ -21,8 +18,6 @@ function FeaturedOne() {
           </ul>
           <a href="https://github.com/tigeryant/sei-project-four-be" className="icon-link first mb-4 me-4" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
         </div>
-
-        {/* <h5>Featured project one</h5> */}
       </div>
     </section>
   )

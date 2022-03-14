@@ -1,13 +1,7 @@
 import { useState } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-// import { createPopper } from '@popperjs/core'
 
 function Contact() {
-  // const state = {
-  //   value: '',
-  //   copied: false,
-  // }
-
   const [copied, setCopied] = useState(false)
 
   // const tooltip = document.querySelector('#tooltip')
