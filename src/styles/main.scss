@@ -208,6 +208,7 @@ h4 {
   margin: 150px 0 150px 0;
 }
 
+// should change this
 .featured-container.first {
   margin-top: 80px;
 }
@@ -216,16 +217,16 @@ h4 {
   width: 600px;
   height: 100%;
   position: absolute;
-  background-image: url('../assets/cryptoAcademy.png');
+  // background-image: url('../assets/cryptoAcademy.png');
   background-size: cover;
   border-radius: 5px;
   background-position: center;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.featured-image-container.third {
-  background-image: url('../assets/rbitrage.png');
-}
+// .featured-image-container.third {
+//   background-image: url('../assets/rbitrage.png');
+// }
 
 .featured-info {
   position: absolute;
