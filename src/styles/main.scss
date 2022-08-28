@@ -49,6 +49,12 @@ h4 {
   font-family: 'Roboto Mono', monospace;
 }
 
+.p3 {
+  color: #ff9900;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 0;
+}
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * NAVBAR * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 .logo {
   height: 50px;
@@ -154,6 +160,10 @@ h4 {
   padding: 20px;
 }
 
+// .skill-container.width {
+//   justify-content: start;
+// }
+
 .skill-icon {
   margin-bottom: 10px;
 }
@@ -211,6 +221,10 @@ h4 {
   border-radius: 5px;
   background-position: center;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.featured-image-container.third {
+  background-image: url('../assets/rbitrage.png');
 }
 
 .featured-info {
@@ -425,4 +439,29 @@ ul {
 
 .side-icon {
   font-size: 1.9rem;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * EXPERIENCE ACCORDION * * * * * * * * * * * * * * * * * * * * * * * * 
+#experience {
+  margin: 0 0 300px 0;
+}
+
+.experience-accordion {
+  background-color: #202020;
+  color: $dark-grey;
+}
+
+.accordion-button {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #202020;
+  color: $dark-grey;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }

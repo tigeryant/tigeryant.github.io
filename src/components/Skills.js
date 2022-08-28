@@ -12,20 +12,24 @@ import githubIcon from '../assets/tech/github.svg'
 import zshIcon from '../assets/tech/terminal-fill.svg'
 import gitIcon from '../assets/tech/icons8-git.svg'
 import npmIcon from '../assets/tech/icons8-npm.svg'
-import herokuIcon from '../assets/tech/icons8-heroku.svg'
-import xcodeIcon from '../assets/tech/icons8-xcode.svg'
+// import herokuIcon from '../assets/tech/icons8-heroku.svg'
+// import xcodeIcon from '../assets/tech/icons8-xcode.svg'
 import expressIcon from '../assets/tech/expressjs-icon.svg'
 import mongodbIcon from '../assets/tech/mongodb-svgrepo-com.svg'
-import insomniaIcon from '../assets/tech/insomnia-svgrepo-com.svg'
-import cPlusPlusIcon from '../assets/tech/c-plus-plus-svgrepo-com.svg'
+// import insomniaIcon from '../assets/tech/insomnia-svgrepo-com.svg'
+// import cPlusPlusIcon from '../assets/tech/c-plus-plus-svgrepo-com.svg'
 import bashIcon from '../assets/tech/gnubash-svgrepo-com.svg'
-import homebrewIcon from '../assets/tech/homebrew-svgrepo-com.svg'
+// import homebrewIcon from '../assets/tech/homebrew-svgrepo-com.svg'
 import vscodeIcon from '../assets/tech/visual-studio-svgrepo-com.svg'
-import pipIcon from '../assets/tech/folder-python-svgrepo-com.svg'
-import cloudinaryIcon from '../assets/tech/cloudinary-svgrepo-com.svg'
-import tablePlusIcon from '../assets/tech/tableplus-icon.png'
-import cSharpIcon from '../assets/tech/icons8-c-sharp-logo.svg'
-import netlifyIcon from '../assets/tech/netlify-icon.svg'
+// import pipIcon from '../assets/tech/folder-python-svgrepo-com.svg'
+// import cloudinaryIcon from '../assets/tech/cloudinary-svgrepo-com.svg'
+// import tablePlusIcon from '../assets/tech/tableplus-icon.png'
+// import cSharpIcon from '../assets/tech/icons8-c-sharp-logo.svg'
+// import netlifyIcon from '../assets/tech/netlify-icon.svg'
+import vimIcon from '../assets/tech/vim4.svg'
+import phpIcon from '../assets/tech/php.svg'
+import laravelIcon from '../assets/tech/laravel.svg'
+import awsIcon from '../assets/tech/aws.svg'
 
 // FLAG ICONS
 import ukFlag from '../assets/flags/uk-flag.svg'
@@ -47,16 +51,16 @@ function Skills() {
       </div>
       <h3 className="my-5">Tech</h3>
       <div className="tech-container my-5">
-        <div className="skill-container">
-          <img src={htmlIcon} height="100" className="skill-icon" />
+        <div className="skill-container width">
+          <img src={awsIcon} width="100" height="100" className="colored-icon skill-icon" />
           <p className="skill-caption p2">
-            HTML
+            AWS
           </p>
         </div>
         <div className="skill-container">
-          <img src={cssIcon} height="100" className="skill-icon" />
+          <img src={pythonIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
-            CSS
+            Python
           </p>
         </div>
         <div className="skill-container">
@@ -71,16 +75,22 @@ function Skills() {
             React
           </p>
         </div>
+        <div className="skill-container">
+          <img src={htmlIcon} height="100" className="skill-icon" />
+          <p className="skill-caption p2">
+            HTML
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={cssIcon} height="100" className="skill-icon" />
+          <p className="skill-caption p2">
+            CSS
+          </p>
+        </div>
         <div className="skill-container bootstrap-icon" >
           <img src={bootstrapIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Bootstrap
-          </p>
-        </div>
-        <div className="skill-container">
-          <img src={pythonIcon} height="100" className="skill-icon" />
-          <p className="skill-caption p2">
-            Python
           </p>
         </div>
         <div className="skill-container">
@@ -107,19 +117,19 @@ function Skills() {
             Mongo
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={insomniaIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Insomnia
           </p>
-        </div>
+  </div> */}
         <div className="skill-container">
           <img src={postgresIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
             PostgreSQL
           </p>
         </div>
-        <div className="skill-container">
+        {/*<div className="skill-container">
           <img src={tablePlusIcon} height="100" className="colored-icon skill-icon" />
           <p className="skill-caption p2">
             TablePlus
@@ -142,7 +152,7 @@ function Skills() {
           <p className="skill-caption p2">
             C#
           </p>
-        </div>
+        </div> */}
         <div className="skill-container">
           <img src={bashIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
@@ -173,19 +183,19 @@ function Skills() {
             NPM
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={homebrewIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Homebrew
           </p>
-        </div>
-        <div className="skill-container">
+        </div> */}
+        {/* <div className="skill-container">
           <img src={pipIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Pip
           </p>
-        </div>
-        <div className="skill-container">
+        </div> */}
+        {/* <div className="skill-container">
           <img src={herokuIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
             Heroku
@@ -196,17 +206,35 @@ function Skills() {
           <p className="skill-caption p2">
             Netlify
           </p>
-        </div>
+        </div> */}
         <div className="skill-container">
           <img src={vscodeIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             VScode
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={xcodeIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
             Xcode
+          </p>
+        </div> */}
+        <div className="skill-container">
+          <img src={vimIcon} height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Vim
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={phpIcon} width="100" className="colored-icon skill-icon"/>
+          <p className="skill-caption p2">
+            PHP 
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={laravelIcon} height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Laravel
           </p>
         </div>
       </div>
