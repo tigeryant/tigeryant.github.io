@@ -18,7 +18,13 @@ function NavBar() {
               <a className="nav-link" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects ADD EXPERIENCE HERE</a>
+              <a className="nav-link" href="#projects">Projects</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#experience">Experience</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#certifications">Certifications</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
