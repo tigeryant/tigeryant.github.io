@@ -15,7 +15,7 @@ function Experience() {
           <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div className="accordion-body experience-accordion">
               <p><strong>April 2022 - present</strong></p>
-              <p>Contributed software development expertise throughout the software development lifecycle to maintain several robust, scalable web applications. Working at Quantum Gate has given me an excellent introduction to the software industry as well as the opportunity to collaborate on projects in a professional setting. I&apos;ve worked with PHP, Laravel, Python, Django, Vim and many other tools.</p>
+              <p>Contributing software development expertise throughout the software development lifecycle to maintain several robust, scalable web applications. Interfacing with senior software engineers, structural engineers and a UI designer to design and write clean, maintainable software for a diverse range of clients. Applying full stack expertise to produce modern, responsive designs on the front end as well as efficient business logic on the back end. Operating according to the agile methodology to provide clients&apos; work packages in an iterative and timely fashion. Working at Quantum Gate has given me an excellent introduction to the software industry as well as the opportunity to collaborate on projects in a professional setting. I&apos;m working with Python, Django, React, PHP, Laravel and many other tools.</p>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ function Experience() {
           <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div className="accordion-body experience-accordion">
               <p><strong>April 2022 - present</strong></p>
-              <p>Working with a small, cohesive team to build Rbitrage - an early stage startup (hedge fund) in the crypto space. We aim to provide investment solutions to a broad range of clients. This venture has greatly developed my knowledge of cloud computing, crypto and quantitative finance. The main technologies I have used are Amazon Web Services (Lambda, Amplify, DynamoDB, IAM, etc), Python, JavaScript, React.js and Vim. See the &apos;Projects&apos; section for more information.</p>
+              <p>Working with a small, cohesive team to build Rbitrage - an early stage startup in the crypto space. We aim to provide investment solutions to a broad range of clients. This venture has greatly developed my knowledge of cloud computing, crypto and quantitative finance. The main technologies I have used are Amazon Web Services (Lambda, Amplify, DynamoDB, IAM, etc), Python, JavaScript, React.js and Vim. See the &apos;Projects&apos; section for more information.</p>
             </div>
           </div>
         </div>
