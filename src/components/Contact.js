@@ -13,7 +13,7 @@ function Contact() {
   return (
     <section className="p-md-5" id="contact">
       <div className="mb-4">
-        <p className="p2" style={{ display: 'inline' }}>05. </p>
+        <p className="p2" style={{ display: 'inline' }}>06. </p>
         <h2 style={{ display: 'inline' }}>Get In Touch</h2>
       </div>
       <p className="p1">I&apos;m currently looking for a role as an AWS cloud engineer. If you want to get in touch, message me on LinkedIn or send me an email and I&apos;ll get back to you as soon as possible!</p>
