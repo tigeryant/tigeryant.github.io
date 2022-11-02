@@ -15,7 +15,7 @@ function FeaturedProject({ data, image, index }) {
 
   return (
     <section id="featured-one">
-      <div className={`featured-container ${textLeft ? 'second' : ''}`}>
+      <div className={`featured-container ${textLeft ? 'left' : ''}`}>
         {/* <div className="featured-image-container" style={{ backgroundImage: 'url(' + path + ')' }} ></div> */}
         {!textLeft &&
           <img src={image} className={`featured-image-container ${textLeft ? 'second' : ''}`} />
@@ -24,9 +24,11 @@ function FeaturedProject({ data, image, index }) {
         {/* <img src={require(`../../assets/${image}`)} alt="Img" className="featured-image-container" /> */}
         {/* <img src={'../../assets/' + image } className="featured-image-container" /> */}
  
+        {/* featured info needs second */}
         <div className={`featured-info ${textLeft ? 'second' : ''}`}>
           <p className="p2 featured-header">Featured project</p>
           <h3>{ data.title }</h3>
+          {/* needs second */}
           <p className={`info-card p1 p-2  ${textLeft ? 'second' : 'first'}`}>{ data.content }</p>
           <ul className={`p1 project-tech ${textLeft ? 'second' : ''}`}>
             {data.technologies.map((tech, index) => {
@@ -43,6 +45,7 @@ function FeaturedProject({ data, image, index }) {
           </div>
         </div>
         {/* conditionally render the featured image container here */}
+        {/* featured image container needs second */}
         {textLeft &&
           <img src={image} className={`featured-image-container ${textLeft ? 'second' : ''}`} />
         }

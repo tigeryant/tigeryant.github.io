@@ -249,6 +249,10 @@ h4 {
     margin-right: -10px;
   }
 
+  .featured-info .left {
+    margin-left: -10px;
+  }
+// change 
   .featured-info.second {
     margin-left: -10px;
   }
@@ -268,10 +272,12 @@ h4 {
     height: 200px;
   }
 
+  // change this
   .featured-container.first {
     margin-top: 20px;
   }
 
+  // change this
   .featured-container.second {
     margin-bottom: 500px;
   }
@@ -309,6 +315,11 @@ h4 {
   }
 }
 
+.info-card .left {
+  text-align: left;
+}
+
+// change
 .info-card.second {
   text-align: left;
 }
@@ -321,11 +332,25 @@ h4 {
   display: inline;
 }
 
-.featured-image-container.second {
+.featured-image-container.left {
   right: 0px;
-  background-image: url('../assets/compCoin.png');
 }
 
+// section img {
+//   right: 0px;
+// }
+
+// change this
+.featured-image-container.second {
+  right: 0px;
+}
+
+.featured-info .left {
+  left: 0px;
+  align-items: flex-start;
+}
+
+// change this
 .featured-info.second {
   left: 0px;
   align-items: flex-start;
