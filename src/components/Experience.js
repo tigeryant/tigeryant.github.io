@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <section className="p-md-5" id="experience">
-      <div className="my-4">
+      <div className="my-5">
         <p className="p2" style={{ display: 'inline' }}>03. </p>
         <h2 style={{ display: 'inline' }}>Experience</h2>
       </div>

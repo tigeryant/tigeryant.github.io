@@ -4,13 +4,15 @@ $card-black: #080808;
 $orange: #FF9900;
 $light-grey: #DCDCDC;
 $dark-grey: #808080;
+$background-black: #171618;
 
 // * * * * * * * * * * * * * * * * * * * * * TEXT * * * * * * * * * * * * * * * * * * * * * * * * 
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: #202020;
+  // background-color: #1b1a1c;
+  background-color: $background-black;
 }
 
 .mono-font {
@@ -22,12 +24,12 @@ body {
 }
 
 h1 {
-  color: 	#DCDCDC;
+  color: 	$light-grey;
   font-size: 4rem;
 }
 
 h2, h3, h4 {
-  color: #DCDCDC;
+  color: $light-grey;
 }
 
 h2 {
@@ -473,7 +475,7 @@ ul {
 }
 
 .experience-accordion {
-  background-color: #202020;
+  background-color: $background-black;
   color: $dark-grey;
 }
 
@@ -488,7 +490,7 @@ ul {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #202020;
+  background-color: $background-black;
   color: $dark-grey;
 }
 
