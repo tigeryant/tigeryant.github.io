@@ -483,6 +483,10 @@ ul {
   // justify-content: center;
 }
 
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
 .accordion-button:not(.collapsed) {
   background-color: #202020;
   color: $dark-grey;
