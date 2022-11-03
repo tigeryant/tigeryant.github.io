@@ -269,7 +269,7 @@ function Skills() {
         <div className="skill-container">
           <img src={adaptabilityIcon} height="100" className="skill-icon uncolored-icon" />
           <p className="skill-caption p2">
-            Adapdability
+            Adaptability
           </p>
         </div>
       </div>
