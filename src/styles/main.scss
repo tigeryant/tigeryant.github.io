@@ -4,13 +4,15 @@ $card-black: #080808;
 $orange: #FF9900;
 $light-grey: #DCDCDC;
 $dark-grey: #808080;
+$background-black: #171618;
 
 // * * * * * * * * * * * * * * * * * * * * * TEXT * * * * * * * * * * * * * * * * * * * * * * * * 
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: #202020;
+  // background-color: #1b1a1c;
+  background-color: $background-black;
 }
 
 .mono-font {
@@ -22,12 +24,12 @@ body {
 }
 
 h1 {
-  color: 	#DCDCDC;
+  color: 	$light-grey;
   font-size: 4rem;
 }
 
 h2, h3, h4 {
-  color: #DCDCDC;
+  color: $light-grey;
 }
 
 h2 {
@@ -41,6 +43,12 @@ h4 {
 .p1 {
   color: #808080;
   font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .p1 {
+    font-size: 1rem;
+  }
 }
 
 .p2 {
@@ -94,7 +102,7 @@ h4 {
 
 @media only screen and (max-width: 1300px) {
   #hero {
-    margin: 200px 0 200px 0;
+    margin: 200px 0 250px 0;
   }
 }
 
@@ -172,10 +180,28 @@ h4 {
   display: flex;
   flex-flow: wrap;
   align-items: baseline;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1300px) {
+  .tech-container {
+    justify-content: center;
+  }
 }
 
 .flags-container {
   display: flex;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1300px) {
+  .flags-container {
+    justify-content: space-around;
+  }
+}
+
+.language-caption {
+  text-align: center;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -473,7 +499,7 @@ ul {
 }
 
 .experience-accordion {
-  background-color: #202020;
+  background-color: $background-black;
   color: $dark-grey;
 }
 
@@ -488,7 +514,7 @@ ul {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #202020;
+  background-color: $background-black;
   color: $dark-grey;
 }
 
@@ -512,7 +538,31 @@ ul {
     align-items: center;
 }
 
+@media only screen and (max-width: 1300px) {
+  .certification-container {
+    flex-direction: column;
+  }
+}
+
 .certificate-image {
     height: 225px;
     width: 225px;
+}
+
+#certificate-caption {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1300px) {
+  .certificate-caption {
+    margin-top: 20px;
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .certificate-title {
+    margin-bottom: 0 !important;
+  }
 }

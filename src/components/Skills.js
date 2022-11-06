@@ -269,7 +269,7 @@ function Skills() {
         <div className="skill-container">
           <img src={adaptabilityIcon} height="100" className="skill-icon uncolored-icon" />
           <p className="skill-caption p2">
-            Adapdability
+            Adaptability
           </p>
         </div>
       </div>
@@ -278,13 +278,13 @@ function Skills() {
       <div className="flags-container my-5">
         <div className="skill-container">
           <img src={ukFlag} height="100" className="skill-icon" />
-          <p className="skill-caption p2">
+          <p className="skill-caption p2 language-caption">
             English (native)
           </p>
         </div>
         <div className="skill-container">
           <img src={portugalFlag} height="100" className="skill-icon" />
-          <p className="skill-caption p2">
+          <p className="skill-caption p2 language-caption">
             Portuguese (limited proficiency)
           </p>
         </div>
