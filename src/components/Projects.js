@@ -22,7 +22,7 @@ function Projects() {
   // put the projects and images in an array and map over them in the JSX
   return (
     <section className="p-md-5" id="projects">
-      <div className="my-5">
+      <div className="my-4">
         <p className="p2" style={{ display: 'inline' }}>05. </p>
         <h2 style={{ display: 'inline' }}>Projects</h2>
       </div>

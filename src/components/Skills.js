@@ -45,11 +45,11 @@ import ideaIcon from '../assets/tech/icons8-idea.svg'
 function Skills() {
   return (
     <section className="p-md-5" id="skills">
-      <div className="my-5">
+      <div className="mb-4 mt-5">
         <p className="p2" style={{ display: 'inline' }}>02. </p>
         <h2 style={{ display: 'inline' }}>Skills</h2>
       </div>
-      <h3 className="my-5">Tech</h3>
+      <h3 className="">Tech</h3>
       <div className="tech-container my-5">
         <div className="skill-container width">
           <img src={awsIcon} width="100" height="100" className="colored-icon skill-icon" />
