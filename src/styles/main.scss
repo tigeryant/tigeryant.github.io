@@ -180,12 +180,24 @@ h4 {
   display: flex;
   flex-flow: wrap;
   align-items: baseline;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1300px) {
+  .tech-container {
+    justify-content: center;
+  }
 }
 
 .flags-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1300px) {
+  .flags-container {
+    justify-content: space-around;
+  }
 }
 
 .language-caption {
