@@ -1,12 +1,13 @@
 function MoreProjects() {
   
   const projects = [
-    { title: 'A Star Pathfinding Algorithm', description: 'Interactive visualisation of the A star pathfinding algorithm.', technologies: ['Python', 'Pygame'], links: ['https://github.com/tigeryant/a-star-pathfinding-algorithm'] },
-    { title: 'Order Matching Engine', description: 'Price/time priority order matching engine with graphical user interface.', technologies: ['Python', 'Tkinter'], links: ['https://github.com/tigeryant/order-matching-engine'] },
-    { title: 'Pi Estimator', description: 'Implementation of a Monte Carlo algorithm that estimates the value of Pi and displays a visualisation using a graphical user interface.', technologies: ['Python', 'Numpy', 'Pandas', 'Matplotlib'], links: ['https://github.com/tigeryant/pi-estimator'] },
-    { title: 'Cryptopals Challenges', description: 'Solutions to the cryptopals cryptography challenges.', technologies: ['C++'], links: ['https://github.com/tigeryant/cryptopals-challenges'] },
-    { title: 'KetoKitchen', description: 'Full stack MERN app built collaboratively as part of the Software Engineering Immersive course at GA that allows users to browse keto recipes.', technologies: ['Express', 'Node', 'Mongo', 'React', 'Bootstrap', 'JWT'], links: ['https://github.com/tigeryant/sei-project-three-be', 'https://ketokitchen-proj-three-sei.netlify.app/'] },
-    { title: 'Pacman Game', description: 'Retro-style Pacman game completed as part of the Software Engineering Immersive course at GA.', technologies: ['HTML', 'CSS', 'JavaScript'], links: ['https://github.com/tigeryant/sei-project-one', 'https://tigeryant.github.io/sei-project-one/'] }
+    { title: 'A Star Pathfinding Algorithm', description: 'Interactive visualisation of the A star pathfinding algorithm', technologies: ['Python', 'Pygame'], links: ['https://github.com/tigeryant/a-star-pathfinding-algorithm'] },
+    { title: 'Order Matching Engine', description: 'Price/time priority order matching engine with graphical user interface', technologies: ['Python', 'Tkinter'], links: ['https://github.com/tigeryant/order-matching-engine'] },
+    { title: 'Pi Estimator', description: 'Implementation of a Monte Carlo algorithm that estimates the value of Pi and displays a visualisation using a graphical user interface', technologies: ['Python', 'Numpy', 'Pandas', 'Matplotlib'], links: ['https://github.com/tigeryant/pi-estimator'] },
+    { title: 'Cryptopals Challenges', description: 'Solutions to the cryptopals cryptography challenges', technologies: ['C++'], links: ['https://github.com/tigeryant/cryptopals-challenges'] },
+    { title: 'Data Structures, Algorithms and Design Patterns', description: 'A collection of implementations of various data structures, algorithms and design patterns', technologies: ['Python', 'PHP'], links: ['https://github.com/tigeryant/data-structures-algorithms-design-patterns'] },
+    { title: 'KetoKitchen', description: 'Full stack MERN app built collaboratively as part of the Software Engineering Immersive course at GA that allows users to browse keto recipes', technologies: ['Express', 'Node', 'Mongo', 'React', 'Bootstrap', 'JWT'], links: ['https://github.com/tigeryant/sei-project-three-be', 'https://ketokitchen-proj-three-sei.netlify.app/'] }
+    // { title: 'Pacman Game', description: 'Retro-style Pacman game completed as part of the Software Engineering Immersive course at GA.', technologies: ['HTML', 'CSS', 'JavaScript'], links: ['https://github.com/tigeryant/sei-project-one', 'https://tigeryant.github.io/sei-project-one/'] }
   ]
 
   return (
