@@ -1,17 +1,26 @@
 // VARS
 
-$card-black: #080808;
+// $card-black: #080808;
+// $card-black: #424242;
+// $card-black: #7F7F7F;
+// $card-black: #404040;
+$card-black: #383838;
 $orange: #FF9900;
-$light-grey: #DCDCDC;
-$dark-grey: #808080;
-$background-black: #171618;
+// $light-grey: #DCDCDC;
+$light-grey: #FFFFFF;
+// $lighter-grey: #DCDCDC;
+$lighter-grey: #BFBFBF;
+$white: #FFFFFF;
+$dark-grey: #686868;
+// $dark-grey: #404040;
+// $background-black: #171618;
+$background-black: #121212;
 
 // * * * * * * * * * * * * * * * * * * * * * TEXT * * * * * * * * * * * * * * * * * * * * * * * * 
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  // background-color: #1b1a1c;
   background-color: $background-black;
 }
 
@@ -41,8 +50,9 @@ h4 {
 }
 
 .p1 {
-  color: #808080;
+  color: $lighter-grey;
   font-size: 1.1rem;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -52,15 +62,20 @@ h4 {
 }
 
 .p2 {
-  color: #ff9900;
+  color: $orange;
   font-size: 1.1rem;
   font-family: 'Roboto Mono', monospace;
 }
 
 .p3 {
-  color: #ff9900;
+  color: $orange;
   font-family: 'Roboto Mono', monospace;
   margin-bottom: 0;
+}
+
+.third-text {
+  color: $lighter-grey;
+  font-weight: 400;
 }
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * NAVBAR * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
@@ -149,7 +164,7 @@ h4 {
 }
 
 .icon {
-  color: #ff9900;
+  color: $orange;
   font-size: 6rem;
 }
 
@@ -346,7 +361,7 @@ h4 {
 
 .info-card {
   width: 100%;
-  background-color: #080808;
+  background-color: $card-black;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 300;
@@ -423,13 +438,14 @@ ul {
 }
 
 .icon-link {
-  color: #808080;
+  color: $dark-grey;
+  // color: $lighter-grey;
   font-size: 1.6rem;
   text-decoration: none;
 }
 
 .icon-link :hover {
-  color: #FF9900;
+  color: $orange;
   text-decoration: none;
   cursor: pointer;
 }
@@ -475,6 +491,7 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: $dark-grey;
 }
 
 #github-logo {
@@ -486,11 +503,11 @@ ul {
 
 .link {
   text-decoration: none;
-  color: #FFFFFF;
+  color: $white;
 }
 
 .link :hover {
-  color: #FFFFFF;
+  color: $white;
 }
 
 .contact-links-container {
@@ -520,7 +537,7 @@ ul {
 
 .experience-accordion {
   background-color: $background-black;
-  color: $dark-grey;
+  // color: $dark-grey;
 }
 
 .accordion-button {
@@ -535,7 +552,7 @@ ul {
 
 .accordion-button:not(.collapsed) {
   background-color: $background-black;
-  color: $dark-grey;
+  // color: $dark-grey;
 }
 
 .accordion-button:after {

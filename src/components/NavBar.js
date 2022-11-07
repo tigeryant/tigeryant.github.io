@@ -12,22 +12,22 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarsExample04">
           <ul className="navbar-nav ms-auto mb-2 mb-md-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#about">About</a>
+              <a className="nav-link p1" aria-current="page" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#skills">Skills</a>
+              <a className="nav-link p1" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
+              <a className="nav-link p1" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#experience">Experience</a>
+              <a className="nav-link p1" href="#experience">Experience</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#certifications">Certifications</a>
+              <a className="nav-link p1" href="#certifications">Certifications</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
+              <a className="nav-link p1" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

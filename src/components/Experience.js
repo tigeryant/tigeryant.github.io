@@ -30,9 +30,7 @@ function Experience() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body experience-accordion">
-              <p>
-                <strong>April 2022 - present</strong>
-              </p>
+              <p className="third-text">April 2022 - present</p>
               <ul className="experience-list">
                 <li className="p1">
                   Collaborating closely with the co-founders to build an early
@@ -74,9 +72,7 @@ function Experience() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body experience-accordion">
-              <p>
-                <strong>April 2022 - present</strong>
-              </p>
+              <p className="third-text">April 2022 - present</p>
               <ul className="experience-list">
                 <li className="p1">
                   Interfacing with senior software engineers, structural
