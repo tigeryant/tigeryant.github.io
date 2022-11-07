@@ -226,8 +226,8 @@ function Skills() {
           </p>
         </div>
         <div className="skill-container">
-          <img src={phpIcon} width="100" className="colored-icon skill-icon"/>
-          <p className="skill-caption p2">
+          <img src={phpIcon} className="colored-icon skill-icon" id="php-icon"/>
+          <p className="skill-caption p2" id="php-caption">
             PHP 
           </p>
         </div>
