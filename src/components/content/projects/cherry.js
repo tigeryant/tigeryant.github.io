@@ -8,6 +8,7 @@ const data = {
     'Bitcoin',
     'React',
     'Tailwind',
+    'Raspberry Pi',
     'SSH'
   ],
 }
