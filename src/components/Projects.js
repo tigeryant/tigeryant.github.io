@@ -3,14 +3,16 @@ import FeaturedProject from './projects-children/FeaturedProject'
 import MoreProjects from './projects-children/MoreProjects'
 
 // content
+import cherryData from './content/projects/cherry'
 import rbitrageData from '../components/content/projects/rbitrage'
 import compcoinData from '../components/content/projects/compcoin'
-import cryptoacademyData from '../components/content/projects/cryptoacademy'
+// import cryptoacademyData from '../components/content/projects/cryptoacademy'
 
 // images
+import cherryImage from '../assets/projects/cherry.png'
 import rbitrageImage from '../assets/rbitrage.png'
 import compcoinImage from '../assets/compCoin.png'
-import cryptoacademyImage from '../assets/cryptoAcademy.png'
+// import cryptoacademyImage from '../assets/cryptoAcademy.png'
 
 
 // import FeaturedOne from './projects-children/FeaturedOne'
@@ -27,20 +29,25 @@ function Projects() {
         <h2 style={{ display: 'inline' }}>Projects</h2>
       </div>
       <FeaturedProject 
+        data={cherryData}
+        image={cherryImage}
+        index={0}
+      />
+      <FeaturedProject 
         data={rbitrageData}
         image={rbitrageImage}
-        index={0}
+        index={1}
       />
       <FeaturedProject 
         data={compcoinData}
         image={compcoinImage}
-        index={1}
-      />
-      <FeaturedProject 
-        data={cryptoacademyData}
-        image={cryptoacademyImage}
         index={2}
       />
+      {/* <FeaturedProject 
+        data={cryptoacademyData}
+        image={cryptoacademyImage}
+        index={3}
+      /> */}
       {/* <FeaturedThree /> */}
       {/* <FeaturedTwo /> */}
       {/* <FeaturedOne /> */}

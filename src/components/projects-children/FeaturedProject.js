@@ -40,7 +40,7 @@ function FeaturedProject({ data, image, index }) {
             })}
           </ul>
           <div className="featured-links-container">
-            {data.github && <a href={data.github} className={`icon-link ${textLeft ? 'second me-3' : 'first'}`} target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>}
+            {data.github && <a href={data.github} className={`icon-link ${textLeft ? 'second me-3' : 'first me-3'}`} target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>}
             {data.live && <a href={data.live} className={`icon-link ${textLeft ? 'second' : 'first'}`} target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>}
           </div>
         </div>

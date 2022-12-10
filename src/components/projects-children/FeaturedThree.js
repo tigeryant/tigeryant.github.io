@@ -1,3 +1,5 @@
+// NOTE - THIS FILE IS DEPRECATED - SEE FEATURED PROJECT FOR THE NEW FORMAT
+
 function FeaturedThree() {
   return (
     <section id="featured-one third">
