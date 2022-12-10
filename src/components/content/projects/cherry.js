@@ -5,6 +5,7 @@ const data = {
   'live': 'http://cherry-frontend.s3-website.eu-west-2.amazonaws.com/',
   'technologies': [
     'AWS',
+    'Bitcoin',
     'React',
     'Tailwind',
     'SSH'
