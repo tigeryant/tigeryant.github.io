@@ -7,6 +7,7 @@ const data = {
     'AWS',
     'React',
     'Python',
+    'GraphQL',
     'Cryptocurrency',
     'Nx'
   ],
