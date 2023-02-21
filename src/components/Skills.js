@@ -14,7 +14,7 @@ import gitIcon from '../assets/tech/icons8-git.svg'
 import npmIcon from '../assets/tech/icons8-npm.svg'
 // import herokuIcon from '../assets/tech/icons8-heroku.svg'
 // import xcodeIcon from '../assets/tech/icons8-xcode.svg'
-import expressIcon from '../assets/tech/expressjs-icon.svg'
+// import expressIcon from '../assets/tech/expressjs-icon.svg'
 import mongodbIcon from '../assets/tech/mongodb-svgrepo-com.svg'
 // import insomniaIcon from '../assets/tech/insomnia-svgrepo-com.svg'
 // import cPlusPlusIcon from '../assets/tech/c-plus-plus-svgrepo-com.svg'
@@ -30,6 +30,8 @@ import vimIcon from '../assets/tech/vim4.svg'
 import phpIcon from '../assets/tech/php.svg'
 import laravelIcon from '../assets/tech/laravel.svg'
 import awsIcon from '../assets/tech/aws.svg'
+import terraformIcon from '../assets/tech/terraform-icon.svg'
+import serverlessIcon from '../assets/tech/serverless-icon.svg'
 
 // FLAG ICONS
 import ukFlag from '../assets/flags/uk-flag.svg'
@@ -55,6 +57,18 @@ function Skills() {
           <img src={awsIcon} width="100" height="100" className="colored-icon skill-icon" />
           <p className="skill-caption p2">
             AWS
+          </p>
+        </div>
+        <div className="skill-container width">
+          <img src={terraformIcon} width="100" height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Terraform
+          </p>
+        </div>
+        <div className="skill-container width">
+          <img src={serverlessIcon} width="100" height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Serverless{'\n'}Framework
           </p>
         </div>
         <div className="skill-container">
@@ -105,12 +119,12 @@ function Skills() {
             Node
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={expressIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Express
           </p>
-        </div>
+        </div> */}
         <div className="skill-container">
           <img src={mongodbIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
@@ -177,12 +191,12 @@ function Skills() {
             GitHub
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={npmIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
             NPM
           </p>
-        </div>
+        </div> */}
         {/* <div className="skill-container">
           <img src={homebrewIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
