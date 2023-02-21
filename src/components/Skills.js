@@ -11,7 +11,7 @@ import postgresIcon from '../assets/tech/icons8-postgresql.svg'
 import githubIcon from '../assets/tech/github.svg'
 import zshIcon from '../assets/tech/terminal-fill.svg'
 import gitIcon from '../assets/tech/icons8-git.svg'
-import npmIcon from '../assets/tech/icons8-npm.svg'
+// import npmIcon from '../assets/tech/icons8-npm.svg'
 // import herokuIcon from '../assets/tech/icons8-heroku.svg'
 // import xcodeIcon from '../assets/tech/icons8-xcode.svg'
 // import expressIcon from '../assets/tech/expressjs-icon.svg'
@@ -28,10 +28,13 @@ import vscodeIcon from '../assets/tech/visual-studio-svgrepo-com.svg'
 // import netlifyIcon from '../assets/tech/netlify-icon.svg'
 import vimIcon from '../assets/tech/vim4.svg'
 import phpIcon from '../assets/tech/php.svg'
-import laravelIcon from '../assets/tech/laravel.svg'
+// import laravelIcon from '../assets/tech/laravel.svg'
 import awsIcon from '../assets/tech/aws.svg'
 import terraformIcon from '../assets/tech/terraform-icon.svg'
 import serverlessIcon from '../assets/tech/serverless-icon.svg'
+import githubActionsIcon from '../assets/tech/github-actions-icon.png'
+import reduxIcon from '../assets/tech/redux-icon.svg'
+import tailwindIcon from '../assets/tech/tailwind-icon.svg'
 
 // FLAG ICONS
 import ukFlag from '../assets/flags/uk-flag.svg'
@@ -89,6 +92,12 @@ function Skills() {
             React
           </p>
         </div>
+        <div className="skill-container width">
+          <img src={reduxIcon} width="100" height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Redux
+          </p>
+        </div>
         <div className="skill-container">
           <img src={htmlIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
@@ -99,6 +108,12 @@ function Skills() {
           <img src={cssIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
             CSS
+          </p>
+        </div>
+        <div className="skill-container width">
+          <img src={tailwindIcon} width="100" height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Tailwind
           </p>
         </div>
         <div className="skill-container bootstrap-icon" >
@@ -186,11 +201,18 @@ function Skills() {
           </p>
         </div>
         <div className="skill-container">
+          <img src={githubActionsIcon} height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            GitHub{'\n'}
+            Actions
+          </p>
+        </div>
+        {/* <div className="skill-container">
           <img src={githubIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             GitHub
           </p>
-        </div>
+        </div> */}
         {/* <div className="skill-container">
           <img src={npmIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
@@ -239,18 +261,18 @@ function Skills() {
             Vim
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={phpIcon} className="colored-icon skill-icon" id="php-icon"/>
           <p className="skill-caption p2" id="php-caption">
             PHP 
           </p>
-        </div>
-        <div className="skill-container">
+        </div> */}
+        {/* <div className="skill-container">
           <img src={laravelIcon} height="100" className="colored-icon skill-icon" />
           <p className="skill-caption p2">
             Laravel
           </p>
-        </div>
+        </div> */}
       </div>
 
       <h3 className="my-5">Soft Skills</h3>
