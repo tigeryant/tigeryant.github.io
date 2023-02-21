@@ -5,13 +5,15 @@ import MoreProjects from './projects-children/MoreProjects'
 // content
 import cherryData from './content/projects/cherry'
 import rbitrageData from '../components/content/projects/rbitrage'
-import compcoinData from '../components/content/projects/compcoin'
+import awsSmsData from './content/projects/awsSmsDelivery'
+// import compcoinData from '../components/content/projects/compcoin'
 // import cryptoacademyData from '../components/content/projects/cryptoacademy'
 
 // images
 import cherryImage from '../assets/projects/cherry.png'
 import rbitrageImage from '../assets/rbitrage.png'
-import compcoinImage from '../assets/compCoin.png'
+import awsSmsImage from '../assets/awsSmsImage.png'
+// import compcoinImage from '../assets/compCoin.png'
 // import cryptoacademyImage from '../assets/cryptoAcademy.png'
 
 
@@ -39,10 +41,15 @@ function Projects() {
         index={1}
       />
       <FeaturedProject 
+        data={awsSmsData}
+        image={awsSmsImage}
+        index={2}
+      />
+      {/* <FeaturedProject 
         data={compcoinData}
         image={compcoinImage}
         index={2}
-      />
+      /> */}
       {/* <FeaturedProject 
         data={cryptoacademyData}
         image={cryptoacademyImage}
