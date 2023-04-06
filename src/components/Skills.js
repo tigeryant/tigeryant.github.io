@@ -39,6 +39,7 @@ import tailwindIcon from '../assets/tech/tailwind-icon.svg'
 // FLAG ICONS
 import ukFlag from '../assets/flags/uk-flag.svg'
 import portugalFlag from '../assets/flags/portugal-flag.svg'
+import spainFlag from '../assets/flags/spain-flag.png'
 
 // SOFT SKILL ICONS
 import communicationIcon from '../assets/soft-skills/chat.svg'
@@ -316,6 +317,12 @@ function Skills() {
           <img src={ukFlag} height="100" className="skill-icon" />
           <p className="skill-caption p2 language-caption">
             English (native)
+          </p>
+        </div>
+        <div className="skill-container">
+          <img src={spainFlag} height="100" className="skill-icon" />
+          <p className="skill-caption p2 language-caption">
+            Spanish (limited proficiency)
           </p>
         </div>
         <div className="skill-container">
