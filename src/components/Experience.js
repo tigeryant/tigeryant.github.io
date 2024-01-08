@@ -35,18 +35,18 @@ function Experience() {
                   architects.
                 </li>
                 <li className="p1">
-                  Led the decision to migrate to a serverless AWS backend, then
-                  architected this solution and provisioned the infrastructure
-                  with Terraform. We used an array of services, including
-                  Lambda, DynamoDB, API Gateway, Cognito and S3.
+                  Spearheaded the successful implementation of a scalable,
+                  cost-effective, serverless AWS solution, utilising an array of
+                  AWS services, including services, including Lambda, DynamoDB,
+                  API Gateway, Cognito and S3. Provisioned this infrastructure
+                  with Terraform.
                 </li>
                 <li className="p1">
-                  Held workshops to upskill other team members on using
-                  AWS.
+                  Held workshops to upskill other team members on using AWS.
                 </li>
                 <li className="p1">
-                  Designed and implemented a sleek and performant frontend
-                  with React, TypeScript and Tailwind.
+                  Designed and implemented a sleek and performant frontend with
+                  React, TypeScript and Tailwind.
                 </li>
                 <li className="p1">
                   Attended numerous product demos as the technical lead,
@@ -83,16 +83,16 @@ function Experience() {
               <p className="third-text">April 2022 - December 2022</p>
               <ul className="experience-list">
                 <li className="p1">
-                  Collaborating closely with the co-founders to build an early
+                  Collaborated closely with the co-founders to build an early
                   stage startup in the crypto space
                 </li>
                 <li className="p1">
-                  Using services like Lambda, DynamoDB, SQS, Amplify and AppSync
+                  Used services like Lambda, DynamoDB, SQS, Amplify and AppSync
                   to construct a resilient backend architecture, as well as
                   React and Tailwind to produce a modern, responsive frontend
                 </li>
                 <li className="p1">
-                  Expanding my knowledge of financial services and quantitative
+                  Expanded my knowledge of financial services and quantitative
                   finance
                 </li>
               </ul>
@@ -110,9 +110,7 @@ function Experience() {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              <p className="p3">
-                Junior software engineer @ Quantum Gate
-              </p>
+              <p className="p3">Junior software engineer @ Quantum Gate</p>
             </button>
           </h2>
           <div
@@ -125,29 +123,29 @@ function Experience() {
               <p className="third-text">April 2022 - February 2023</p>
               <ul className="experience-list">
                 <li className="p1">
-                  Interfacing with senior software engineers, structural
+                  Interfaced with senior software engineers, structural
                   engineers and a UI designer to produce and deploy clean,
                   maintainable code for a diverse range of clients
                 </li>
                 <li className="p1">
-                  Applying full stack expertise throughout the SDLC to build
+                  Applied full stack expertise throughout the SDLC to build
                   modern, responsive designs on the frontend and robust,
                   scalable software on the backend
                 </li>
                 <li className="p1">
-                  Assuming the role of principle maintainer of an application
+                  Assumed the role of principle maintainer of an application
                   which tracks and manages the progress of construction projects
                 </li>
                 <li className="p1">
-                  Operating according to the agile methodology to meet clients'
+                  Operated according to the agile methodology to meet clients'
                   needs in an iterative and timely fashion
                 </li>
                 <li className="p1">
-                  Documenting all new features, tests and bug fixes in a clear,
+                  Documented all new features, tests and bug fixes in a clear,
                   concise manner
                 </li>
                 <li className="p1">
-                  Developing with Python, Django, JavaScript, React, PHP,
+                  Developed with Python, Django, JavaScript, React, PHP,
                   Laravel and more
                 </li>
               </ul>
