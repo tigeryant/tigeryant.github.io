@@ -6,6 +6,7 @@ import MoreProjects from './projects-children/MoreProjects'
 import cherryData from './content/projects/cherry'
 import rbitrageData from '../components/content/projects/rbitrage'
 import awsSmsData from './content/projects/awsSmsDelivery'
+import operaData from './content/projects/opera'
 // import compcoinData from '../components/content/projects/compcoin'
 // import cryptoacademyData from '../components/content/projects/cryptoacademy'
 
@@ -13,6 +14,7 @@ import awsSmsData from './content/projects/awsSmsDelivery'
 import cherryImage from '../assets/projects/cherry.png'
 import rbitrageImage from '../assets/rbitrage.png'
 import awsSmsImage from '../assets/awsSmsImage.png'
+import operaImage from '../assets/operaImage.png'
 // import compcoinImage from '../assets/compCoin.png'
 // import cryptoacademyImage from '../assets/cryptoAcademy.png'
 
@@ -31,19 +33,24 @@ function Projects() {
         <h2 style={{ display: 'inline' }}>Projects</h2>
       </div>
       <FeaturedProject 
+        data={operaData}
+        image={operaImage}
+        index={0}
+      />
+      <FeaturedProject 
         data={cherryData}
         image={cherryImage}
-        index={0}
+        index={1}
       />
       <FeaturedProject 
         data={rbitrageData}
         image={rbitrageImage}
-        index={1}
+        index={2}
       />
       <FeaturedProject 
         data={awsSmsData}
         image={awsSmsImage}
-        index={2}
+        index={3}
       />
       {/* <FeaturedProject 
         data={compcoinData}

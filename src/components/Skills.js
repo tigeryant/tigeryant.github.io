@@ -2,13 +2,14 @@
 import htmlIcon from '../assets/tech/icons8-html-5.svg'
 import cssIcon from '../assets/tech/icons8-css3.svg'
 import javascriptIcon from '../assets/tech/icons8-javascript.svg'
+import typescriptIcon from '../assets/tech/typescript.svg'
 import reactIcon from '../assets/tech/icons8-react-native.svg'
-import bootstrapIcon from '../assets/tech/bootstrap-fill.svg'
+// import bootstrapIcon from '../assets/tech/bootstrap-fill.svg'
 import pythonIcon from '../assets/tech/icons8-python.svg'
 import djangoIcon from '../assets/tech/icons8-django.svg'
 import nodeIcon from '../assets/tech/icons8-node-js.svg'
 import postgresIcon from '../assets/tech/icons8-postgresql.svg'
-import githubIcon from '../assets/tech/github.svg'
+// import githubIcon from '../assets/tech/github.svg'
 import zshIcon from '../assets/tech/terminal-fill.svg'
 import gitIcon from '../assets/tech/icons8-git.svg'
 // import npmIcon from '../assets/tech/icons8-npm.svg'
@@ -27,7 +28,7 @@ import vscodeIcon from '../assets/tech/visual-studio-svgrepo-com.svg'
 // import cSharpIcon from '../assets/tech/icons8-c-sharp-logo.svg'
 // import netlifyIcon from '../assets/tech/netlify-icon.svg'
 import vimIcon from '../assets/tech/vim4.svg'
-import phpIcon from '../assets/tech/php.svg'
+// import phpIcon from '../assets/tech/php.svg'
 // import laravelIcon from '../assets/tech/laravel.svg'
 import awsIcon from '../assets/tech/aws.svg'
 import terraformIcon from '../assets/tech/terraform-icon.svg'
@@ -83,6 +84,12 @@ function Skills() {
           </p>
         </div>
         <div className="skill-container">
+          <img src={typescriptIcon} height="100" className="skill-icon" />
+          <p className="skill-caption p2">
+            TypeScript
+          </p>
+        </div>
+        <div className="skill-container">
           <img src={javascriptIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
             JavaScript
@@ -118,12 +125,12 @@ function Skills() {
             Tailwind
           </p>
         </div>
-        <div className="skill-container bootstrap-icon" >
+        {/* <div className="skill-container bootstrap-icon" >
           <img src={bootstrapIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Bootstrap
           </p>
-        </div>
+        </div> */}
         <div className="skill-container">
           <img src={djangoIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
