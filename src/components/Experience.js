@@ -37,7 +37,7 @@ function Experience() {
                 <li className="p1">
                   Spearheaded the successful implementation of a scalable,
                   cost-effective, serverless AWS solution, utilising an array of
-                  AWS services, including services, including Lambda, DynamoDB,
+                  AWS services including Lambda, DynamoDB,
                   API Gateway, Cognito and S3. Provisioned this infrastructure
                   with Terraform.
                 </li>
