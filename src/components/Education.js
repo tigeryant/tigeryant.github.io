@@ -1,4 +1,3 @@
-// add imports for ARU and General Assembly logos
 import generalAssemblyLogo from "../assets/generalAssemblyLogo.png";
 import aruLogo from "../assets/aruLogo.svg";
 
