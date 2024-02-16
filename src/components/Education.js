@@ -7,7 +7,7 @@ function Education() {
     <section className="p-md-5" id="education">
       <div className="my-4">
         <p className="p2" style={{ display: "inline" }}>
-          04.{" "}
+          05.{" "}
         </p>
         <h2 style={{ display: "inline" }}>Education</h2>
       </div>
