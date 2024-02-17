@@ -12,6 +12,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Publications from './components/Publications'
+import VoluntaryWork from './components/VoluntaryWork'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
             <Education />
             <Projects />
             <Publications />
+            <VoluntaryWork />
             <Contact />
             <Footer />
           </div>
