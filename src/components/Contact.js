@@ -14,7 +14,7 @@ function Contact() {
     <section className="p-md-5" id="contact">
       <div className="mb-4">
         <p className="p2" style={{ display: "inline" }}>
-          08.{" "}
+          09.{" "}
         </p>
         <h2 style={{ display: "inline" }}>Get In Touch</h2>
       </div>
