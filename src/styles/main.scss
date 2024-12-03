@@ -178,6 +178,7 @@ h4 {
 }
 
 .skill-container {
+  width: calc(100% / 7);
   display: flex;
   flex-direction: column;
   align-items: center;

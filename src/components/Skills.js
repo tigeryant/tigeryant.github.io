@@ -36,6 +36,7 @@ import serverlessIcon from '../assets/tech/serverless-icon.svg'
 import githubActionsIcon from '../assets/tech/github-actions-icon.png'
 import reduxIcon from '../assets/tech/redux-icon.svg'
 import tailwindIcon from '../assets/tech/tailwind-icon.svg'
+import rustIcon from '../assets/tech/Rust_programming_language_black_logo.svg'
 
 // FLAG ICONS
 import ukFlag from '../assets/flags/uk-flag.svg'
@@ -59,28 +60,17 @@ function Skills() {
       </div>
       <h3 className="">Tech</h3>
       <div className="tech-container my-5">
-        <div className="skill-container width">
+        {/* width here */}
+        <div className="skill-container">
           <img src={awsIcon} width="100" height="100" className="colored-icon skill-icon" />
           <p className="skill-caption p2">
             AWS
           </p>
         </div>
-        <div className="skill-container width">
-          <img src={terraformIcon} width="100" height="100" className="colored-icon skill-icon" />
-          <p className="skill-caption p2">
-            Terraform
-          </p>
-        </div>
-        <div className="skill-container width">
-          <img src={serverlessIcon} width="100" height="100" className="colored-icon skill-icon" />
-          <p className="skill-caption p2">
-            Serverless{'\n'}Framework
-          </p>
-        </div>
         <div className="skill-container">
-          <img src={pythonIcon} height="100" className="skill-icon" />
+          <img src={rustIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
-            Python
+            Rust
           </p>
         </div>
         <div className="skill-container">
@@ -101,7 +91,28 @@ function Skills() {
             React
           </p>
         </div>
-        <div className="skill-container width">
+        <div className="skill-container">
+          <img src={pythonIcon} height="100" className="skill-icon" />
+          <p className="skill-caption p2">
+            Python
+          </p>
+        </div>
+        {/* width here */}
+        <div className="skill-container"> 
+          <img src={terraformIcon} width="100" height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Terraform
+          </p>
+        </div>
+        {/* width here */}
+        <div className="skill-container">
+          <img src={serverlessIcon} width="100" height="100" className="colored-icon skill-icon" />
+          <p className="skill-caption p2">
+            Serverless{'\n'}Framework
+          </p>
+        </div>
+        {/* width here */}
+        <div className="skill-container">
           <img src={reduxIcon} width="100" height="100" className="colored-icon skill-icon" />
           <p className="skill-caption p2">
             Redux
@@ -119,7 +130,8 @@ function Skills() {
             CSS
           </p>
         </div>
-        <div className="skill-container width">
+        {/* width */}
+        <div className="skill-container">
           <img src={tailwindIcon} width="100" height="100" className="colored-icon skill-icon" />
           <p className="skill-caption p2">
             Tailwind
@@ -197,12 +209,12 @@ function Skills() {
             Bash
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={zshIcon} height="100" className="uncolored-icon skill-icon" />
           <p className="skill-caption p2">
             Zsh
           </p>
-        </div>
+        </div> */}
         <div className="skill-container">
           <img src={gitIcon} height="100" className="skill-icon" />
           <p className="skill-caption p2">
