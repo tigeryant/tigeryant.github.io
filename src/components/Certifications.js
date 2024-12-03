@@ -22,7 +22,7 @@ function Certifications() {
         {/* may need to remove these unecessary classes - see the css too */}
         <div className="certificate-caption ms-4">
           <p className="p1 certificate-title">HashiCorp Certified: Terraform Associate (002)</p>
-          <p className="p1">Awarded 11/2022. Expires 11/2024.</p>
+          <p className="p1">Awarded 11/2022. Expired 11/2024.</p>
           <a href="https://www.credly.com/badges/d5b9c19d-f508-43eb-b6c3-70e16979caf8/public_url" className="icon-link" target="_blank" rel="noreferrer"><i className="bi bi-box-arrow-up-right"></i></a>
         </div>
       </div>

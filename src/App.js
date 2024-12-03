@@ -11,7 +11,7 @@ import Education from './components/Education'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Publications from './components/Publications'
+// import Publications from './components/Publications'
 import VoluntaryWork from './components/VoluntaryWork'
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
             <Certifications />
             <Education />
             <Projects />
-            <Publications />
+            {/* <Publications /> */}
             <VoluntaryWork />
             <Contact />
             <Footer />
