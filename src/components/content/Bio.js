@@ -2,36 +2,19 @@ function Bio() {
   return (
     <ul style={{ listStyleType: "disc" }}>
       <li className="p1" >
-        Driven engineer dedicated to architecting innovative, high-performance
-        cloud-native solutions, propelled by a passion for technological
-        advancement and problem-solving.
+        Engineer passionate about driving innovation through high-performance cloud-native solutions, Rust development and cutting-edge Bitcoin technologies. 
       </li>
       <li className="p1">
-        Spearheaded the successful implementation of a scalable,
-        cost-effective, serverless AWS solution in my current role at Gebler
-        Tooth Architects, complementing a robust portfolio of diverse AWS
-        projects.
+        At Gebler Tooth Architects, I implemented a scalable, cost-effective serverless AWS solution to compliment a diverse portfolio of cloud projects.
       </li>
       <li className="p1">
-        Dedicated to staying ahead in the rapidly evolving tech
-        landscape, as showcased by my attainment of certifications in both AWS
-        and Terraform.
+        Certified in AWS and Terraform, I stay ahead in the rapidly evolving tech landscape.
       </li>
       <li className="p1">
-        Engaged and enthusiastic member of the broader software
-        development community, actively contributing by volunteering at
-        conferences, in addition to regular participation at hackathons and
-        meetups.
+        Active and passionate contributor to the software community, volunteering at conferences and participating in hackathons and meetups.
       </li>
       <li className="p1">
-        Intrigued by the intersection of diverse disciplines that
-        amplify my expertise - my interests include fitness, linguistics and
-        Bitcoin.
-      </li>
-      <li className="p1">
-        Seeking opportunities to collaborate on innovative projects
-        that leverage technology to solve real-world problems and drive
-        meaningful change.
+      Excited to collaborate on impactful projects that to solve real-world problems.
       </li>
     </ul>
   );
