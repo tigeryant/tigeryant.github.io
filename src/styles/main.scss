@@ -209,6 +209,8 @@ h4 {
 .flags-container {
   display: flex;
   justify-content: flex-start;
+  gap: 8rem; /* Increased from 4rem for more spacing */
+  margin-left: 2rem;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -218,7 +220,8 @@ h4 {
 }
 
 .language-caption {
-  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 #php-icon {

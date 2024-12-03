@@ -334,19 +334,19 @@ function Skills() {
       <h3 className="my-5">Languages</h3>
       <div className="flags-container my-5">
         <div className="skill-container">
-          <img src={ukFlag} height="100" className="skill-icon" />
+          <img src={ukFlag} height="100" width="200" className="skill-icon" />
           <p className="skill-caption p2 language-caption">
             English (native)
           </p>
         </div>
-        <div className="skill-container">
+        {/* <div className="skill-container">
           <img src={spainFlag} height="100" className="skill-icon" />
           <p className="skill-caption p2 language-caption">
             Spanish (limited proficiency)
           </p>
-        </div>
+        </div> */}
         <div className="skill-container">
-          <img src={thaiFlag} height="100" className="skill-icon" />
+          <img src={thaiFlag} height="100" width="200" className="skill-icon" />
           <p className="skill-caption p2 language-caption">
             Thai (limited proficiency)
           </p>
