@@ -1,18 +1,18 @@
 function MoreProjects() {
   const projects = [
     {
+      title: "Order Matching Engine",
+      description:
+        "Price/time priority order matching engine with graphical user interface. This project now has over 30 stars on GitHub.",
+      technologies: ["Python", "Tkinter"],
+      links: ["https://github.com/tigeryant/order-matching-engine"],
+    },
+    {
       title: "A Star Pathfinding Algorithm",
       description:
         "Interactive visualisation of the A star pathfinding algorithm",
       technologies: ["Python", "Pygame"],
       links: ["https://github.com/tigeryant/a-star-pathfinding-algorithm"],
-    },
-    {
-      title: "Order Matching Engine",
-      description:
-        "Price/time priority order matching engine with graphical user interface",
-      technologies: ["Python", "Tkinter"],
-      links: ["https://github.com/tigeryant/order-matching-engine"],
     },
     {
       title: "Pi Estimator",
@@ -22,20 +22,38 @@ function MoreProjects() {
       links: ["https://github.com/tigeryant/pi-estimator"],
     },
     {
-      title: "Bitcoin Full Node",
+      title: "Mango Lightning Wallet",
       description:
-        "I currently run and maintain a node which maintains a full archival history of the Bitcoin blockchain since genesis. I used this node to build a Bitcoin block explorer, featured above.",
-      technologies: ["Bitcoin", "Raspberry Pi", "Linux"],
-    },
-    {
-      title: "Data Structures, Algorithms and Design Patterns",
-      description:
-        "A collection of implementations of various data structures, algorithms and design patterns",
-      technologies: ["Python", "PHP"],
+        "Web based lightning wallet for making transactions and managing channels.",
+      technologies: ["Bitcoin", "Lightning", "TypeScript", "Polar", "Node.js", "Express"],
       links: [
-        "https://github.com/tigeryant/data-structures-algorithms-design-patterns",
+        "https://github.com/tigeryant/mango-lightning-wallet",
       ],
     },
+    // {
+    //   title: "Bitcoin Full Node",
+    //   description:
+    //     "I currently run and maintain a node which maintains a full archival history of the Bitcoin blockchain since genesis. I used this node to build a Bitcoin block explorer, featured above.",
+    //   technologies: ["Bitcoin", "Raspberry Pi", "Linux"],
+    // },
+    {
+      title: "Exercism Solutions",
+      description:
+        "Solutions to the Exercism practise exercises for the Rust track",
+      technologies: ["Rust", "DSA"],
+      links: [
+        "https://github.com/tigeryant/exercism-solutions-rust",
+      ],
+    },
+    // {
+    //   title: "Data Structures, Algorithms and Design Patterns",
+    //   description:
+    //     "A collection of implementations of various data structures, algorithms and design patterns",
+    //   technologies: ["Python", "PHP"],
+    //   links: [
+    //     "https://github.com/tigeryant/data-structures-algorithms-design-patterns",
+    //   ],
+    // },
     {
       title: "KetoKitchen",
       description:
