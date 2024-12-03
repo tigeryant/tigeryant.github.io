@@ -26,7 +26,7 @@ function Education() {
           </p>
         </div>
       </div>
-      <div className="certification-container mt-5">
+      <div className="certification-container" id="aru-container">
         <img className="certificate-image" src={aruLogo}></img>
         {/* may need to remove these unecessary classes - see the css too */}
         <div className="certificate-caption ms-4">
