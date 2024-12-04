@@ -17,7 +17,7 @@ import rbitrageImage from "../assets/rbitrage.png";
 // import awsSmsImage from "../assets/awsSmsImage.png";
 import operaImage from "../assets/operaImage.png";
 // import rustImage from '../assets/projects/programming-bitcoin-cover.jpg'
-import rustImage from '../assets/projects/output-onlinepngtools-1.png'
+import rustImage from '../assets/projects/pgb.png'
 // import compcoinImage from '../assets/compCoin.png'
 // import cryptoacademyImage from '../assets/cryptoAcademy.png'
 
