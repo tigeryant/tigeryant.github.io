@@ -1,6 +1,24 @@
 function MoreProjects() {
   const projects = [
     {
+      title: "Operating System Kernel",
+      description:
+        "Minimal operating system kernel featuring memory management, exception handling, interrupt processing, and basic multitasking. Inspired by and built following the series of blog posts by Philipp Oppermann.",
+      technologies: ["Rust", "QEMU", "x86_64"],
+      links: [
+        "https://github.com/tigeryant/blog_os",
+      ],
+    },
+    {
+      title: "Oxyhash",
+      description:
+        "A Bitcoin mining implementation with inter-process communication (IPC), developed as part of the Chaincode Labs Bitcoin OSS (BOSS) program. Designed to explore the internals of mining and system-level concurrency.",
+      technologies: ["Rust", "Bitcoin", "tokio"],
+      links: [
+        "https://github.com/tigeryant/oxyhash",
+      ],
+    },
+    {
       title: "Order Matching Engine",
       description:
         "Price/time priority order matching engine with graphical user interface. This project now has over 30 stars on GitHub.",
@@ -14,17 +32,17 @@ function MoreProjects() {
       technologies: ["Python", "Pygame"],
       links: ["https://github.com/tigeryant/a-star-pathfinding-algorithm"],
     },
-    {
-      title: "Pi Estimator",
-      description:
-        "Implementation of a Monte Carlo algorithm that estimates the value of Pi and displays a visualisation using a graphical user interface",
-      technologies: ["Python", "Numpy", "Pandas", "Matplotlib"],
-      links: ["https://github.com/tigeryant/pi-estimator"],
-    },
+    // {
+    //   title: "Pi Estimator",
+    //   description:
+    //     "Implementation of a Monte Carlo algorithm that estimates the value of Pi and displays a visualisation using a graphical user interface",
+    //   technologies: ["Python", "Numpy", "Pandas", "Matplotlib"],
+    //   links: ["https://github.com/tigeryant/pi-estimator"],
+    // },
     {
       title: "Mango Lightning Wallet",
       description:
-        "Web based lightning wallet for making transactions and managing channels.",
+        "A browser-accessible Lightning Network wallet for sending payments and managing channels, designed for seamless Bitcoin micropayments and channel operations.",
       technologies: ["Bitcoin", "Lightning", "TypeScript", "Polar", "Node.js", "Express"],
       links: [
         "https://github.com/tigeryant/mango-lightning-wallet",
@@ -39,7 +57,7 @@ function MoreProjects() {
     {
       title: "Exercism Solutions",
       description:
-        "Solutions to the Exercism practise exercises for the Rust track",
+        "A collection of solutions to practice exercises from the Rust track on Exercism, focusing on idiomatic Rust, problem-solving, and improving fluency with the language.",
       technologies: ["Rust", "DSA"],
       links: [
         "https://github.com/tigeryant/exercism-solutions-rust",
@@ -54,16 +72,16 @@ function MoreProjects() {
     //     "https://github.com/tigeryant/data-structures-algorithms-design-patterns",
     //   ],
     // },
-    {
-      title: "KetoKitchen",
-      description:
-        "Full stack MERN app built collaboratively as part of the Software Engineering Immersive course at GA that allows users to browse keto recipes",
-      technologies: ["Express", "Node", "Mongo", "React", "Bootstrap", "JWT"],
-      links: [
-        "https://github.com/tigeryant/sei-project-three-be",
-        "https://ketokitchen-proj-three-sei.netlify.app/",
-      ],
-    },
+    // {
+    //   title: "KetoKitchen",
+    //   description:
+    //     "Full stack MERN app built collaboratively as part of the Software Engineering Immersive course at GA that allows users to browse keto recipes",
+    //   technologies: ["Express", "Node", "Mongo", "React", "Bootstrap", "JWT"],
+    //   links: [
+    //     "https://github.com/tigeryant/sei-project-three-be",
+    //     "https://ketokitchen-proj-three-sei.netlify.app/",
+    //   ],
+    // },
     // { title: 'Pacman Game', description: 'Retro-style Pacman game completed as part of the Software Engineering Immersive course at GA.', technologies: ['HTML', 'CSS', 'JavaScript'], links: ['https://github.com/tigeryant/sei-project-one', 'https://tigeryant.github.io/sei-project-one/'] }
   ];
 
