@@ -1,3 +1,8 @@
+import chaincodeLogo from "../assets/chaincodeLogo.png";
+import bitcoinLogo from "../assets/bitcoinLogo.png";
+import geblerToothLogo from "../assets/geblerToothLogo.jpeg";
+import quantumGateLogo from "../assets/quantumGateLogo.jpeg";
+
 function Experience() {
   return (
     <section className="p-md-5" id="experience">
@@ -8,6 +13,7 @@ function Experience() {
         <h2 style={{ display: "inline" }}>Experience</h2>
       </div>
       <div className="accordion" id="accordionExample">
+
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
@@ -18,6 +24,12 @@ function Experience() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
+              <img
+                src={geblerToothLogo} 
+                alt="GTA Logo" 
+                className="me-3" 
+                style={{ width: "32px", height: "24px" }} 
+              />
               <p className="p3">Software developer @ Gebler Tooth Architects</p>
             </button>
           </h2>
@@ -64,10 +76,56 @@ function Experience() {
               className="accordion-button experience-accordion collapsed"
               type="button"
               data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <img
+                src={chaincodeLogo} 
+                alt="ChainCode Logo" 
+                className="me-3" 
+                style={{ width: "32px", height: "24px" }} 
+              />
+              <p className="p3">Bitcoin Open Source Software Developer (BOSS) @ Chaincode Labs</p>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body experience-accordion">
+              <p className="third-text">Jan 2025 - April 2025</p>
+              <ul className="experience-list">
+                <li className="p1">
+                  Participated in a three-month program with weekly assignments covering transactions, wallets, blocks,
+                   and the Lightning Network, designed to guide aspiring Bitcoin developers in contributing to open-source
+                </li>
+                <li className="p1">
+                  Developed a multiprocess Bitcoin miner in Rust, deepening my understanding of Bitcoin's mining internals and the IPC interface.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
+            <button
+              className="accordion-button experience-accordion collapsed"
+              type="button"
+              data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
               aria-expanded="true"
               aria-controls="collapseTwo"
             >
+              <img
+                src={bitcoinLogo} 
+                alt="Bitcoin Logo" 
+                className="me-3" 
+                style={{ width: "32px", height: "24px" }} 
+              />
               <p className="p3">
                 Software engineer (indirect contract) @ Rbitrage
               </p>
@@ -110,6 +168,12 @@ function Experience() {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
+              <img
+                src={quantumGateLogo} 
+                alt="QG Logo" 
+                className="me-3" 
+                style={{ width: "32px", height: "24px" }} 
+              />
               <p className="p3">Junior software engineer @ Quantum Gate</p>
             </button>
           </h2>
