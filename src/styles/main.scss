@@ -52,8 +52,13 @@ h4 {
 
 .p1 {
   color: $lighter-grey;
+  font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.bio-list .p1 {
+  margin-bottom: 1.2em;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -118,7 +123,7 @@ h4 {
 
 @media only screen and (max-width: 1300px) {
   #hero {
-    margin: 200px 0 250px 0;
+    margin: 16rem 0 28rem 0;
   }
 }
 
@@ -164,6 +169,12 @@ h4 {
   margin: 0 0 200px 0;
 }
 
+@media only screen and (max-width: 1300px) {
+    #skills {
+      margin-bottom: 16rem;
+    }
+}
+
 .icon {
   color: $orange;
   font-size: 6rem;
@@ -194,15 +205,22 @@ h4 {
 }
 
 .tech-container {
-  display: flex;
-  flex-flow: wrap;
-  // align-items: baseline;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem; // or whatever gap you prefer
 }
 
-@media only screen and (max-width: 1300px) {
+@media (min-width: 992px) {
   .tech-container {
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .tech-container {
+    grid-template-columns: repeat(3, 1fr); // or 3, as you prefer
   }
 }
 
@@ -294,6 +312,9 @@ h4 {
 }
 
 .featured-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
   height: 370px;
   position: relative;
   margin: 150px 0 150px 0;
@@ -307,17 +328,16 @@ h4 {
 .featured-image-container {
   width: 600px;
   height: 100%;
-  position: absolute;
-  // background-image: url('../assets/cryptoAcademy.png');
+  position: relative;
   background-size: cover;
   border-radius: 5px;
   background-position: center;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  z-index: 0;
 }
 
 .featured-info {
-  position: absolute;
-  right: 0px;
+  position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -325,47 +345,55 @@ h4 {
   align-items: flex-end;
   width: 570px;
   height: 100%;
+  background: none;
+  gap: 1.2rem;
+}
+
+.featured-container.left {
+  flex-direction: row-reverse;
 }
 
 @media only screen and (max-width: 1300px) {
-  .featured-info {
-    // width: 90vw;
-    width: 320px;
-    top: 230px;
-    align-items: flex-start;
-    margin-bottom: 200px;
-    // margin-right: -10px;
-    height: auto;
-  }
-
-  .featured-info .left {
-    margin-left: -10px;
-  }
-
-  .featured-image-container {
-    // width: 90vw;
-    width: 320px;
-    // margin-left: -10px;
-  }
-
   .featured-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    height: auto;
+    margin-bottom: 2.5rem;
     margin-top: 0;
-    margin-bottom: 600px;
-    height: 200px;
   }
-
-  // change this
-  .featured-container.first {
-    margin-top: 20px;
-  }
-
-  // change this
-  .featured-container.second {
-    margin-bottom: 500px;
-  }
-
-  .project-tech {
+  .featured-info {
+    position: static;
     width: 100%;
+    align-items: flex-start;
+    margin-bottom: 0;
+    top: unset;
+    height: auto;
+    margin-top: 1.5rem;
+    text-align: left;
+    gap: 1.2rem;
+  }
+  .featured-info > *,
+  .featured-info h3,
+  .featured-info p,
+  .featured-info ul,
+  .featured-info .info-card {
+    text-align: left !important;
+    align-items: flex-start !important;
+  }
+  .featured-image-container,
+  .info-card {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .featured-container {
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -534,7 +562,7 @@ ul {
 
 .contact-links-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -555,6 +583,12 @@ ul {
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * EXPERIENCE ACCORDION * * * * * * * * * * * * * * * * * * * * * * * * 
 #experience {
   margin: 0 0 450px 0;
+}
+
+@media only screen and (max-width: 1300px) {
+    #experience {
+      margin-bottom: 16rem;
+    }
 }
 
 .experience-accordion {
@@ -586,9 +620,19 @@ ul {
   margin-left: 20px;
 }
 
+.experience-list .p1 {
+  margin-bottom: 1.2em;
+}
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * CERTIFICATIONS * * * * * * * * * * * * * * * * * * * * * * * * 
 #certifications {
   margin: 0 0 400px 0;
+}
+
+@media only screen and (max-width: 700px) {
+    #certifications {
+      margin-top: 16rem;
+    }
 }
 
 .certification-container {
@@ -666,10 +710,32 @@ ul {
   margin: 0 0 400px 0;
 }
 
+@media only screen and (max-width: 1300px) {
+    #voluntaryWork {
+      margin-bottom: 16rem;
+    }
+  }
+
 .volunteer-image {
   width: 200px;
   height: 200px;
   object-fit: contain;
   background-color: white;
   padding: 8px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .featured-image-container,
+  .info-card {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .project-card {
+    height: auto;
+    min-height: 0;
+  }
 }

@@ -25,11 +25,11 @@ function App() {
           <div className="col-11">
             <Hero />
             <About />
-            <Skills />
-            <Experience />
-            <Certifications />
-            <Education />
             <Projects />
+            <Experience />
+            <Skills />
+            <Certifications />
+            {/* <Education /> */}
             {/* <Publications /> */}
             <VoluntaryWork />
             <Contact />

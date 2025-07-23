@@ -7,7 +7,7 @@ function VoluntaryWork() {
     <section className="p-md-5" id="voluntaryWork">
       <div className="my-4">
         <p className="p2" style={{ display: "inline" }}>
-          08.{" "}
+          06.{" "}
         </p>
         <h2 style={{ display: "inline" }}>Voluntary Work</h2>
       </div>

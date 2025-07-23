@@ -30,8 +30,8 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link p1" href="#skills">
-                Skills
+              <a className="nav-link p1" href="#projects">
+                Projects
               </a>
             </li>
             <li className="nav-item">
@@ -40,25 +40,25 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link p1" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link p1" href="#certifications">
                 Certifications
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link p1" href="#education">
                 Education
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link p1" href="#projects">
-                Projects
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link p1" href="#publications">
                 Publications
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link p1" href="#voluntaryWork">
                 Voluntary Work

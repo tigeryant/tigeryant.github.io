@@ -12,7 +12,7 @@ function MoreProjects() {
     {
       title: "Oxyhash",
       description:
-        "A Bitcoin mining implementation with inter-process communication (IPC), developed as part of the Chaincode Labs Bitcoin OSS (BOSS) program. Designed to explore the internals of mining and system-level concurrency.",
+        "A Bitcoin mining implementation with inter-process communication (IPC), developed as part of the Chaincode Labs BOSS program. Designed to explore the internals of mining and system-level concurrency.",
       technologies: ["Rust", "Bitcoin", "tokio"],
       links: [
         "https://github.com/tigeryant/oxyhash",
@@ -24,13 +24,6 @@ function MoreProjects() {
         "Price/time priority order matching engine with graphical user interface. This project now has over 30 stars on GitHub.",
       technologies: ["Python", "Tkinter"],
       links: ["https://github.com/tigeryant/order-matching-engine"],
-    },
-    {
-      title: "A Star Pathfinding Algorithm",
-      description:
-        "Interactive visualisation of the A star pathfinding algorithm",
-      technologies: ["Python", "Pygame"],
-      links: ["https://github.com/tigeryant/a-star-pathfinding-algorithm"],
     },
     // {
     //   title: "Pi Estimator",
@@ -63,6 +56,13 @@ function MoreProjects() {
         "https://github.com/tigeryant/exercism-solutions-rust",
       ],
     },
+    {
+      title: "A Star Pathfinding Algorithm",
+      description:
+        "Interactive visualisation of the A star pathfinding algorithm",
+      technologies: ["Python", "Pygame"],
+      links: ["https://github.com/tigeryant/a-star-pathfinding-algorithm"],
+    }
     // {
     //   title: "Data Structures, Algorithms and Design Patterns",
     //   description:

@@ -5,7 +5,7 @@ function Certifications() {
   return (
     <section className="p-md-5" id="certifications">
       <div className="my-4">
-        <p className="p2" style={{ display: 'inline' }}>04. </p>
+        <p className="p2" style={{ display: 'inline' }}>05. </p>
         <h2 style={{ display: 'inline' }}>Certifications</h2>
       </div>
       <div className="certification-container">
