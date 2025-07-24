@@ -37,11 +37,13 @@ function Projects() {
         </p>
         <h2 style={{ display: "inline" }}>Projects</h2>
       </div>
-      <FeaturedProject data={bitcoinDojoData} image={bitcoinDojoImage} index={0} />
-      <FeaturedProject data={rustData} image={rustImage} index={1} />
-      <FeaturedProject data={cherryData} image={cherryImage} index={2} />
-      <FeaturedProject data={rbitrageData} image={rbitrageImage} index={3} />
-      <FeaturedProject data={operaData} image={operaImage} index={4} />
+      {/* <div style={{ marginTop: "-80px" }}> */}
+        <FeaturedProject data={bitcoinDojoData} image={bitcoinDojoImage} index={0} />
+        <FeaturedProject data={rustData} image={rustImage} index={1} />
+        <FeaturedProject data={cherryData} image={cherryImage} index={2} />
+        <FeaturedProject data={rbitrageData} image={rbitrageImage} index={3} />
+        <FeaturedProject data={operaData} image={operaImage} index={4} />
+      {/* </div> */}
       {/* <FeaturedProject data={awsSmsData} image={awsSmsImage} index={3} /> */}
       {/* <FeaturedProject 
         data={compcoinData}

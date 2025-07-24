@@ -221,6 +221,16 @@ h4 {
 @media (max-width: 991px) {
   .tech-container {
     grid-template-columns: repeat(3, 1fr); // or 3, as you prefer
+    margin-left: -1rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .tech-container {
+    // margin-left: auto;
+    // margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -353,6 +363,7 @@ h4 {
   flex-direction: row-reverse;
 }
 
+
 @media only screen and (max-width: 1300px) {
   .featured-container {
     display: flex;
@@ -396,6 +407,12 @@ h4 {
     margin-bottom: 2.5rem;
   }
 }
+
+@media only screen and (max-width: 500px) {
+    .featured-container {
+      margin-bottom: 8rem;
+    }
+  }
 
 .featured-info * {
   font-weight: 400;
@@ -725,11 +742,17 @@ ul {
 }
 
 @media only screen and (max-width: 1300px) {
-  .featured-image-container,
+  .featured-image-container {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: none;
+    height: 200px;
+  }
   .info-card {
     width: 100%;
     box-sizing: border-box;
     max-width: none;
+    height: auto;
   }
 }
 
@@ -737,5 +760,13 @@ ul {
   .project-card {
     height: auto;
     min-height: 0;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .featured-info .info-card {
+    max-width: 90%;
+    margin-left: 2rem;
+    text-align: right;
   }
 }

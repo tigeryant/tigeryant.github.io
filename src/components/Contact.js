@@ -14,10 +14,10 @@ function Contact() {
         <h2 style={{ display: "inline" }}>Get In Touch</h2>
       </div>
       <p className="p1">
-        I&apos;'m always open to collaborating on exciting projects or
-        connecting with like-minded people. Whether you&apos;'re a client,
+        I&apos;m always open to collaborating on exciting projects or
+        connecting with like-minded people. Whether you&apos;re a client,
         developer, or just curious—feel free to reach out via LinkedIn or email.
-        I&apos;'ll get back to you as soon as I can!
+        I&apos;ll get back to you as soon as I can!
       </p>
       <div className="contact-icons ms-auto me-auto mt-5">
         <div

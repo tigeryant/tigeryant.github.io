@@ -5,7 +5,10 @@ function FeaturedProject({ data, image }) {
   return (
     <section id="featured-one">
       <div className="featured-container">
-        <img src={image} className="featured-image-container first" />
+        <div
+          className="featured-image-container first"
+          style={{ backgroundImage: `url(${image})` }}
+        />
         <div className="featured-info first">
           <p className="p2 featured-header">Featured project</p>
           <h3>{data.title}</h3>
