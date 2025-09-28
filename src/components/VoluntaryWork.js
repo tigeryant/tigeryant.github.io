@@ -32,18 +32,18 @@ function VoluntaryWork() {
           </p>
         </div>
       </div>
-      <div className="certification-container mb-3">
+      {/* <div className="certification-container mb-3">
         <img className="volunteer-image" src={acmLogo}></img>
         {/* may need to remove these unecessary classes - see the css too */}
-        <div className="ms-4 pt-3">
-          <p className="p1 bold mb-1">
-            Auckland City Mission (New Zealand) | 2017
-          </p>
-          <p className="p1">
-            Volunteer driver for the detox unit of the Auckland City Mission
-          </p>
-        </div>
-      </div>
+      {/* <div className="ms-4 pt-3"> */}
+      {/* <p className="p1 bold mb-1"> */}
+      {/* Auckland City Mission (New Zealand) | 2017 */}
+      {/* </p> */}
+      {/* <p className="p1"> */}
+      {/* Volunteer driver for the detox unit of the Auckland City Mission */}
+      {/* </p> */}
+      {/* </div> */}
+      {/* </div> */}
     </section>
   );
 }

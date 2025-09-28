@@ -2,6 +2,7 @@ import chaincodeLogo from "../assets/chaincodeLogo.png";
 import bitcoinLogo from "../assets/bitcoinLogo.png";
 import geblerToothLogo from "../assets/geblerToothLogo.jpeg";
 import quantumGateLogo from "../assets/quantumGateLogo.jpeg";
+import bitcoinDojoLogo from "../assets/bitcoinDojoLogo.png";
 
 function Experience() {
   return (
@@ -13,7 +14,6 @@ function Experience() {
         <h2 style={{ display: "inline" }}>Experience</h2>
       </div>
       <div className="accordion" id="accordionExample">
-
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
@@ -25,18 +25,66 @@ function Experience() {
               aria-controls="collapseOne"
             >
               <img
-                src={geblerToothLogo} 
-                alt="GTA Logo" 
-                className="me-3" 
-                style={{ width: "32px", height: "24px" }} 
+                src={bitcoinDojoLogo}
+                alt="Bitcoin Dojo Logo"
+                className="me-3"
+                style={{ width: "32px", height: "24px", objectFit: "cover" }}
               />
-              <p className="p3">Software developer @ Gebler Tooth Architects</p>
+              <p className="p3">Founder @ Bitcoin Dojo</p>
             </button>
           </h2>
           <div
             id="collapseOne"
             className="accordion-collapse collapse show"
             aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body experience-accordion">
+              <p className="third-text">May 2025 - present</p>
+              <ul className="experience-list">
+                <li className="p1">
+                  Designed and built interactive coding challenges where developers learn Bitcoin by building a Rust utility library.
+                </li>
+                <li className="p1">
+                  Developed a custom CLI tool for exercise setup and submission.
+                </li>
+                <li className="p1">
+                  Deployed a full-stack web application with AWS (Cognito, DynamoDB, Lambda, Fargate, CloudFront, Route53).
+                </li>
+                <li className="p1">
+                  Implemented analytics and monitoring pipelines to track user progress and platform performance.
+                </li>
+                <li className="p1">
+                  Created curriculum content that bridges Bitcoin protocol concepts with hands-on Rust programming.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
+            <button
+              className="accordion-button experience-accordion collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <img
+                src={geblerToothLogo}
+                alt="Gebler Tooth Logo"
+                className="me-3"
+                style={{ width: "32px", height: "24px", objectFit: "cover" }}
+              />
+              <p className="p3">Software developer @ Gebler Tooth Architects</p>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body experience-accordion">
@@ -49,9 +97,8 @@ function Experience() {
                 <li className="p1">
                   Spearheaded the successful implementation of a scalable,
                   cost-effective, serverless AWS solution, utilising an array of
-                  AWS services including Lambda, DynamoDB,
-                  API Gateway, Cognito and S3. Provisioned this infrastructure
-                  with Terraform.
+                  AWS services including Lambda, DynamoDB, API Gateway, Cognito
+                  and S3. Provisioned this infrastructure with Terraform.
                 </li>
                 <li className="p1">
                   Held workshops to upskill other team members on using AWS.
@@ -71,63 +118,23 @@ function Experience() {
         </div>
 
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingTwo">
-            <button
-              className="accordion-button experience-accordion collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="true"
-              aria-controls="collapseTwo"
-            >
-              <img
-                src={chaincodeLogo} 
-                alt="ChainCode Logo" 
-                className="me-3" 
-                style={{ width: "32px", height: "24px" }} 
-              />
-              <p className="p3">Bitcoin Open Source Software Developer (BOSS) @ Chaincode Labs</p>
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            className="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body experience-accordion">
-              <p className="third-text">Jan 2025 - April 2025</p>
-              <ul className="experience-list">
-                <li className="p1">
-                  Participated in a three-month program with weekly assignments covering transactions, wallets, blocks,
-                   and the Lightning Network, designed to guide aspiring Bitcoin developers in contributing to open-source
-                </li>
-                <li className="p1">
-                  Developed a multiprocess Bitcoin miner in Rust, deepening my understanding of Bitcoin's mining internals and the IPC interface.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="accordion-item">
           <h2 className="accordion-header" id="headingThree">
             <button
               className="accordion-button experience-accordion collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
-              aria-expanded="true"
+              aria-expanded="false"
               aria-controls="collapseThree"
             >
               <img
-                src={bitcoinLogo} 
-                alt="Bitcoin Logo" 
-                className="me-3" 
-                style={{ width: "32px", height: "24px" }} 
+                src={chaincodeLogo}
+                alt="ChainCode Logo"
+                className="me-3"
+                style={{ width: "32px", height: "24px", objectFit: "cover" }}
               />
               <p className="p3">
-                Software engineer (indirect contract) @ Rbitrage
+                Bitcoin Open Source Software Developer (BOSS) @ Chaincode Labs
               </p>
             </button>
           </h2>
@@ -135,6 +142,52 @@ function Experience() {
             id="collapseThree"
             className="accordion-collapse collapse"
             aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body experience-accordion">
+              <p className="third-text">Jan 2025 - April 2025</p>
+              <ul className="experience-list">
+                <li className="p1">
+                  Participated in a three-month program with weekly assignments
+                  covering transactions, wallets, blocks, and the Lightning
+                  Network, designed to guide aspiring Bitcoin developers in
+                  contributing to open-source
+                </li>
+                <li className="p1">
+                  Developed a multiprocess Bitcoin miner in Rust, deepening my
+                  understanding of Bitcoin's mining internals and the IPC
+                  interface.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFour">
+            <button
+              className="accordion-button experience-accordion collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              <img
+                src={bitcoinLogo}
+                alt="Bitcoin Logo"
+                className="me-3"
+                style={{ width: "32px", height: "24px", objectFit: "cover" }}
+              />
+              <p className="p3">
+                Software engineer @ Rbitrage
+              </p>
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingFour"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body experience-accordion">
@@ -159,28 +212,28 @@ function Experience() {
         </div>
 
         <div className="accordion-item">
-          <h2 className="accordion-header" id="headingFour">
+          <h2 className="accordion-header" id="headingFive">
             <button
               className="accordion-button collapsed experience-accordion"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseFour"
+              data-bs-target="#collapseFive"
               aria-expanded="false"
-              aria-controls="collapseFour"
+              aria-controls="collapseFive"
             >
               <img
-                src={quantumGateLogo} 
-                alt="QG Logo" 
-                className="me-3" 
-                style={{ width: "32px", height: "24px" }} 
+                src={quantumGateLogo}
+                alt="Quantum Gate Logo"
+                className="me-3"
+                style={{ width: "32px", height: "24px", objectFit: "cover" }}
               />
               <p className="p3">Junior software engineer @ Quantum Gate</p>
             </button>
           </h2>
           <div
-            id="collapseFour"
+            id="collapseFive"
             className="accordion-collapse collapse"
-            aria-labelledby="headingFour"
+            aria-labelledby="headingFive"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body experience-accordion">
@@ -209,8 +262,8 @@ function Experience() {
                   concise manner
                 </li>
                 <li className="p1">
-                  Developed with Python, Django, JavaScript, React, PHP,
-                  Laravel and more
+                  Developed with Python, Django, JavaScript, React, PHP, Laravel
+                  and more
                 </li>
               </ul>
             </div>
