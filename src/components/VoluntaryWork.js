@@ -1,4 +1,5 @@
 import ndcLogo from "../assets/ndcLogo.jpeg";
+import bitcoinPlusPlusLogo from "../assets/bitcoinPlusPlusLogo.png";
 import devoxxLogo from "../assets/devoxxLogo.png";
 import acmLogo from "../assets/acmLogo.png";
 
@@ -10,6 +11,16 @@ function VoluntaryWork() {
           06.{" "}
         </p>
         <h2 style={{ display: "inline" }}>Voluntary Work</h2>
+      </div>
+      <div className="certification-container mb-3">
+        <img className="volunteer-image" src={bitcoinPlusPlusLogo}></img>
+        {/* may need to remove these unecessary classes - see the css too */}
+        <div className="ms-4 pt-3">
+          <p className="p1 bold mb-1">Bitcoin Plus Plus | Dec 2025</p>
+          <p className="p1">
+            Volunteered at bitcoin++ Taipei, a developer-focused conference series for Bitcoiners
+          </p>
+        </div>
       </div>
       <div className="certification-container mb-3">
         <img className="volunteer-image" src={ndcLogo}></img>
